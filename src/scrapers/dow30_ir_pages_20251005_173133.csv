@@ -1,0 +1,31 @@
+Ticker,Company,Website,IR_URL,Status
+AAPL,Apple Inc.,https://www.apple.com,https://investor.apple.com/investor-relations/default.aspx,Found
+AMGN,Amgen Inc.,https://www.amgen.com,http://investors.amgen.com/,Found
+AMZN,Amazon.com Inc.,https://www.amazon.com,https://ir.aboutamazon.com/overview/default.aspx,Found
+AXP,American Express,https://www.americanexpress.com,https://ir.americanexpress.com/investor-relations/default.aspx,Found
+BA,Boeing Co.,https://www.boeing.com,https://investors.boeing.com/investors/overview/default.aspx,Found
+CAT,Caterpillar Inc.,https://www.caterpillar.com,https://investors.caterpillar.com/overview/default.aspx,Found
+CRM,Salesforce Inc.,https://www.salesforce.com,https://investor.salesforce.com/overview/default.aspx,Found
+CSCO,Cisco Systems,https://www.cisco.com,https://investor.cisco.com/home/default.aspx,Found
+CVX,Chevron Corp.,https://www.chevron.com,https://www.chevron.com/investors,Found
+DIS,Walt Disney Co.,https://www.disney.com,https://thewaltdisneycompany.com/investor-relations/,Found
+GS,Goldman Sachs,https://www.goldmansachs.com,https://www.goldmansachs.com/investor-relations,Found
+HD,Home Depot,https://www.homedepot.com,https://ir.homedepot.com/default.aspx,Found
+HON,Honeywell,https://www.honeywell.com,https://investor.honeywell.com/,Found
+IBM,IBM,https://www.ibm.com,https://www.ibm.com/investor,Found
+JNJ,Johnson & Johnson,https://www.jnj.com,https://investor.jnj.com/overview/default.aspx,Found
+JPM,JPMorgan Chase,https://www.jpmorganchase.com,https://www.jpmorganchase.com/ir,Found
+KO,Coca-Cola Co.,https://www.coca-colacompany.com,https://investors.coca-colacompany.com/,Found
+MCD,McDonald's Corp.,https://www.mcdonalds.com,https://corporate.mcdonalds.com/corpmcd/investors.html,Found
+MMM,3M Co.,https://www.3m.com,https://investors.3m.com/,Found
+MRK,Merck & Co.,https://www.merck.com,https://www.merck.com/investor-relations/,Found
+MSFT,Microsoft Corp.,https://www.microsoft.com,https://www.microsoft.com/en-us/investor/default,Found
+NKE,Nike Inc.,https://www.nike.com,https://investors.nike.com/home/default.aspx,Found
+NVDA,NVIDIA Corp.,https://www.nvidia.com,https://investor.nvidia.com/home/default.aspx,Found
+PG,Procter & Gamble,https://www.pg.com,https://www.pginvestor.com/overview/default.aspx,Found
+SHW,Sherwin-Williams,https://www.sherwin-williams.com,https://investors.sherwin-williams.com/press-releases/default.aspx,Found
+TRV,Travelers Companies,https://www.travelers.com,https://investor.travelers.com/home/default.aspx,Found
+UNH,UnitedHealth Group,https://www.unitedhealthgroup.com,https://www.unitedhealthgroup.com/investors.html,Found
+V,Visa Inc.,https://www.visa.com,https://investor.visa.com/,Found
+VZ,Verizon,https://www.verizon.com,https://www.verizon.com/about/investors?CMP=OTC_NA_NA_44444_NA_20250214_NA_NM201800370_00001,Found
+WMT,Walmart Inc.,https://www.walmart.com,https://stock.walmart.com/,Found
