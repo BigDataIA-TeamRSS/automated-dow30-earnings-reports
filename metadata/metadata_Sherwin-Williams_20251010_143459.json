@@ -1,0 +1,75 @@
+{
+  "company": "Sherwin-Williams",
+  "ticker": "SHW",
+  "ir_url": "https://investors.sherwin-williams.com",
+  "pipeline_start_time": "2025-10-10T14:32:55.790940",
+  "pipeline_end_time": "2025-10-10T14:34:59.261237",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:32:55.791056",
+  "scraping_end_time": "2025-10-10T14:34:04.746285",
+  "urls_visited": 2,
+  "urls_found": 300,
+  "extraction_start_time": "2025-10-10T14:34:04.747183",
+  "extraction_end_time": "2025-10-10T14:34:53.367652",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:34:53.367829",
+  "download_end_time": "2025-10-10T14:34:59.260638",
+  "downloaded_files": [
+    {
+      "title": "SHW-2025-6-30_10Q.pdf",
+      "size": 371521,
+      "checksum": "6340955292a9f9854a9a09637f7c4d5f",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/SHW-2025-6-30_10Q.pdf",
+      "download_timestamp": "2025-10-10T14:34:54.726897",
+      "source_page": "https://investors.sherwin-williams.com/financials/quarterly-results/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "SHW-2Q-2025-Earnings-Slides-vFINAL.pdf",
+      "size": 2049826,
+      "checksum": "006abfb0c7e2b479c64b36feb2f31273",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/SHW-2Q-2025-Earnings-Slides-vFINAL.pdf",
+      "download_timestamp": "2025-10-10T14:34:55.807067",
+      "source_page": "https://investors.sherwin-williams.com/financials/quarterly-results/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "CORRECTED-TRANSCRIPT-The-Sherwin-Williams-Co-SHW-US-Q2-2025-Earnings-Call-22-July-2025-10-00-AM-ET.pdf",
+      "size": 354226,
+      "checksum": "a6be723f74a694d6f92c33999ca1b28d",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/CORRECTED-TRANSCRIPT-The-Sherwin-Williams-Co-SHW-US-Q2-2025-Earnings-Call-22-July-2025-10-00-AM-ET.pdf",
+      "download_timestamp": "2025-10-10T14:34:56.612082",
+      "source_page": "https://investors.sherwin-williams.com/financials/quarterly-results/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "SHW-Earnings-Release-2Q2025_FINAL.pdf",
+      "size": 193600,
+      "checksum": "e287ebd45908c9443e7ec36591c5b2d6",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/SHW-Earnings-Release-2Q2025_FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:34:57.567363",
+      "source_page": "https://investors.sherwin-williams.com/financials/quarterly-results/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "",
+      "size": 32454321,
+      "checksum": "a7a1a8161ef5e638682069459a32f049",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/20252Q-Audio-File.mp3",
+      "download_timestamp": "2025-10-10T14:34:59.215747",
+      "source_page": "https://investors.sherwin-williams.com/financials/quarterly-results/default.aspx",
+      "file_type": "mp3"
+    }
+  ]
+}

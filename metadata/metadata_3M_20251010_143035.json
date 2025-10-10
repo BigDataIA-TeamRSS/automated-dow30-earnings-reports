@@ -1,0 +1,75 @@
+{
+  "company": "3M",
+  "ticker": "MMM",
+  "ir_url": "https://investors.3m.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.192952",
+  "pipeline_end_time": "2025-10-10T14:30:35.924159",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.193276",
+  "scraping_end_time": "2025-10-10T14:29:46.637182",
+  "urls_visited": 4,
+  "urls_found": 108,
+  "extraction_start_time": "2025-10-10T14:29:46.637920",
+  "extraction_end_time": "2025-10-10T14:30:28.933080",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:30:28.935298",
+  "download_end_time": "2025-10-10T14:30:35.924015",
+  "downloaded_files": [
+    {
+      "title": "Q2 2025 Supplemental Financial Schedules.pdf",
+      "size": 308781,
+      "checksum": "1dd46a4f57feee3437a1a4a5621b0966",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_332d84f0de28acbb34495534fd4eaac8/3m/db/3222/30962/financial_statement/Q2+2025+Supplemental+Financial+Schedules.pdf",
+      "download_timestamp": "2025-10-10T14:30:30.552086",
+      "source_page": "https://investors.3m.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q2 2025 - 8K ER EX-99.1 - Final.pdf",
+      "size": 89385,
+      "checksum": "5f35a73a3916ed72402e817d2169456c",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_332d84f0de28acbb34495534fd4eaac8/3m/db/3222/30962/earnings_release/Q2+2025+-+8K+ER+EX-99.1+-+Final.pdf",
+      "download_timestamp": "2025-10-10T14:30:31.282967",
+      "source_page": "https://investors.3m.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "MMM-USQ_Transcript_2025-07-18.pdf",
+      "size": 214115,
+      "checksum": "0eaffcfe5c79026537853baeba4691d2",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_332d84f0de28acbb34495534fd4eaac8/3m/db/3222/30962/webcast_transcript/MMM-USQ_Transcript_2025-07-18.pdf",
+      "download_timestamp": "2025-10-10T14:30:32.621702",
+      "source_page": "https://investors.3m.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "0000066740-25-000063.pdf",
+      "size": 1979,
+      "checksum": "49c5d5f9075843a932abcdffa6d14234",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://investors.3m.com/financials/sec-filings/content/0000066740-25-000063/0000066740-25-000063.pdf",
+      "download_timestamp": "2025-10-10T14:30:34.293822",
+      "source_page": "https://investors.3m.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q 2025 Earnings Presentation - vF.pdf",
+      "size": 599653,
+      "checksum": "095d0a6a77e4ca3a46a1bcee8cf2bc04",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_332d84f0de28acbb34495534fd4eaac8/3m/db/3222/30962/presentation/2Q+2025+Earnings+Presentation+-+vF.pdf",
+      "download_timestamp": "2025-10-10T14:30:35.923026",
+      "source_page": "https://investors.3m.com",
+      "file_type": "pdf"
+    }
+  ]
+}

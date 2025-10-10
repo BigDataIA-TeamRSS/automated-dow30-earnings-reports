@@ -570,12 +570,40 @@ class EnhancedSeleniumScraper:
         except Exception:
             return True  # Exclude if URL parsing fails
     
+    def clean_html_content(self, html_content):
+        """Clean HTML content by removing unnecessary elements while preserving structure"""
+        from bs4 import BeautifulSoup
+        
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # Remove or simplify problematic elements
+        for element in soup.find_all(['svg', 'img', 'style', 'script']):
+            element.decompose()  # Remove completely
+        
+        # Remove elements with common CSS classes that are decorative
+        for element in soup.find_all(class_=lambda x: x and any(
+            keyword in x.lower() for keyword in 
+            ['icon', 'background', 'gradient', 'layer', 'sketch', 'pdf-icon']
+        )):
+            element.decompose()
+        
+        # Keep only text content and essential tags (h1-h6, p, span, div with text)
+        # Remove empty elements
+        for element in soup.find_all():
+            if not element.get_text(strip=True) and not element.name in ['a', 'br']:
+                element.decompose()
+        
+        return str(soup)
+    
     def create_document_link(self, link_element, base_url, source_url=None):
         """Create a DocumentLink object from a BeautifulSoup link element"""
         href = link_element.get('href', '')
         text = link_element.get_text(strip=True)
         title = link_element.get('title', '')
         full_html = str(link_element)
+        
+        # Clean the HTML content
+        cleaned_html = self.clean_html_content(full_html)
         
         # Resolve the URL
         full_url = self.resolve_url(href, base_url)
@@ -597,7 +625,7 @@ class EnhancedSeleniumScraper:
             text=text,
             title=title,
             link_type=link_type,
-            full_html=full_html,
+            full_html=cleaned_html,  # Use cleaned HTML
             source_url=source_url
         )
         

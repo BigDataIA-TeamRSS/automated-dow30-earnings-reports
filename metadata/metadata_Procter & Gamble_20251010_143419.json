@@ -1,0 +1,64 @@
+{
+  "company": "Procter & Gamble",
+  "ticker": "PG",
+  "ir_url": "https://www.pginvestor.com",
+  "pipeline_start_time": "2025-10-10T14:32:48.312830",
+  "pipeline_end_time": "2025-10-10T14:34:19.535265",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:32:48.312851",
+  "scraping_end_time": "2025-10-10T14:33:36.911827",
+  "urls_visited": 2,
+  "urls_found": 10,
+  "extraction_start_time": "2025-10-10T14:33:36.911996",
+  "extraction_end_time": "2025-10-10T14:34:14.277720",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:34:14.277920",
+  "download_end_time": "2025-10-10T14:34:19.535068",
+  "downloaded_files": [
+    {
+      "title": "2025 Annual Report",
+      "size": 4672280,
+      "checksum": "b4e7503f0d703b8a8a16c4a80c285862",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025_annual_report.pdf",
+      "download_timestamp": "2025-10-10T14:34:15.156226",
+      "source_page": "https://www.pginvestor.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2025 Financial Statements",
+      "size": 54358,
+      "checksum": "420b161818be87ab2b9a30191a4240ab",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/PG-2025-Financial-Statements-for-IR-site.xlsx",
+      "download_timestamp": "2025-10-10T14:34:16.761505",
+      "source_page": "https://www.pginvestor.com",
+      "file_type": "xlsx"
+    },
+    {
+      "title": "2025 Form 10-K",
+      "size": 1465613,
+      "checksum": "d704c0a14db1f580dd0f158bea673498",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/d5551ac1-abaa-45fb-92fa-0bd5218d58c6.pdf",
+      "download_timestamp": "2025-10-10T14:34:18.322239",
+      "source_page": "https://www.pginvestor.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2025 Proxy Statement",
+      "size": 6939678,
+      "checksum": "d4957bd374062211317f78cb6d695575",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025-Proxy-PG.pdf",
+      "download_timestamp": "2025-10-10T14:34:19.522937",
+      "source_page": "https://www.pginvestor.com",
+      "file_type": "pdf"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "company": "Home Depot",
+  "ticker": "HD",
+  "ir_url": "https://ir.homedepot.com",
+  "pipeline_start_time": "2025-10-10T14:29:32.312430",
+  "pipeline_end_time": "2025-10-10T14:31:48.369517",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:29:32.313555",
+  "scraping_end_time": "2025-10-10T14:31:10.953093",
+  "urls_visited": 4,
+  "urls_found": 35,
+  "extraction_start_time": "2025-10-10T14:31:10.953265",
+  "extraction_end_time": "2025-10-10T14:31:42.665430",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:31:42.665664",
+  "download_end_time": "2025-10-10T14:31:48.369344",
+  "downloaded_files": [
+    {
+      "title": "q2-2025-earnings-reconciliation-of-non-gaap-measures.pdf",
+      "size": 1138038,
+      "checksum": "407972061766e1f93dbcf0d4dd6f27f0",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/q2-2025-earnings-reconciliation-of-non-gaap-measures.pdf",
+      "download_timestamp": "2025-10-10T14:31:43.417127",
+      "source_page": "https://ir.homedepot.com/financial-reports/quarterly-earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "q2-2025-earnings-release.pdf",
+      "size": 283579,
+      "checksum": "acb3a4c08a65bb9fe680b6b3b2a33cc2",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q2-2025-earnings-release.pdf",
+      "download_timestamp": "2025-10-10T14:31:44.786595",
+      "source_page": "https://ir.homedepot.com/financial-reports/quarterly-earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2025-q2-infographic.pdf",
+      "size": 826608,
+      "checksum": "2d350f588cbab74506ede4e54d4f0ec8",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/2025-q2-infographic.pdf",
+      "download_timestamp": "2025-10-10T14:31:45.945949",
+      "source_page": "https://ir.homedepot.com/financial-reports/quarterly-earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "hd-2q25-transcript-vf.pdf",
+      "size": 328758,
+      "checksum": "947cbb9c64de22818b5aeba84b316078",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/hd-2q25-transcript-vf.pdf",
+      "download_timestamp": "2025-10-10T14:31:46.915415",
+      "source_page": "https://ir.homedepot.com/financial-reports/quarterly-earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "hd-q2-2025-10q.pdf",
+      "size": 1120699,
+      "checksum": "b553e5279fa8628706c1c95c04689b87",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/hd-q2-2025-10q.pdf",
+      "download_timestamp": "2025-10-10T14:31:48.367700",
+      "source_page": "https://ir.homedepot.com",
+      "file_type": "pdf"
+    }
+  ]
+}

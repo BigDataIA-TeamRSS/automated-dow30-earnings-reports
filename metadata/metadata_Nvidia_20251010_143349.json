@@ -1,0 +1,64 @@
+{
+  "company": "Nvidia",
+  "ticker": "NVDA",
+  "ir_url": "https://investor.nvidia.com",
+  "pipeline_start_time": "2025-10-10T14:32:09.786613",
+  "pipeline_end_time": "2025-10-10T14:33:49.814545",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:32:09.786630",
+  "scraping_end_time": "2025-10-10T14:33:24.986069",
+  "urls_visited": 3,
+  "urls_found": 62,
+  "extraction_start_time": "2025-10-10T14:33:24.986853",
+  "extraction_end_time": "2025-10-10T14:33:45.042274",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:33:45.042467",
+  "download_end_time": "2025-10-10T14:33:49.814333",
+  "downloaded_files": [
+    {
+      "title": "NVDA-F2Q26-Quarterly-Presentation-FINAL.pdf",
+      "size": 5402146,
+      "checksum": "ce14f3bc66b8db1a1a836d67435a21d2",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q2/NVDA-F2Q26-Quarterly-Presentation-FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:33:46.317804",
+      "source_page": "https://investor.nvidia.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2e217538-c226-4d05-8f74-aaca89a21b33.pdf",
+      "size": 555385,
+      "checksum": "6aeeb6b67dc57cfe7d8a7268cfe08cf9",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q2/2e217538-c226-4d05-8f74-aaca89a21b33.pdf",
+      "download_timestamp": "2025-10-10T14:33:47.530266",
+      "source_page": "https://investor.nvidia.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Rev_by_Mkt_Qtrly_Trend_Q226.pdf",
+      "size": 259065,
+      "checksum": "1cec7efbd8ccc76cb45fa58bd229b265",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/Q226/Rev_by_Mkt_Qtrly_Trend_Q226.pdf",
+      "download_timestamp": "2025-10-10T14:33:48.422251",
+      "source_page": "https://investor.nvidia.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q2FY26-CFO-Commentary.pdf",
+      "size": 82638,
+      "checksum": "b2b414b7232f37e96d505f4abbf7503f",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/Q226/Q2FY26-CFO-Commentary.pdf",
+      "download_timestamp": "2025-10-10T14:33:49.814155",
+      "source_page": "https://investor.nvidia.com",
+      "file_type": "pdf"
+    }
+  ]
+}

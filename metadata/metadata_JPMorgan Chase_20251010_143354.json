@@ -1,0 +1,64 @@
+{
+  "company": "JPMorgan Chase",
+  "ticker": "JPM",
+  "ir_url": "https://www.jpmorganchase.com/ir",
+  "pipeline_start_time": "2025-10-10T14:31:08.669743",
+  "pipeline_end_time": "2025-10-10T14:33:54.613290",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:31:08.669766",
+  "scraping_end_time": "2025-10-10T14:33:24.438841",
+  "urls_visited": 2,
+  "urls_found": 349,
+  "extraction_start_time": "2025-10-10T14:33:24.448457",
+  "extraction_end_time": "2025-10-10T14:33:49.963730",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:33:49.964035",
+  "download_end_time": "2025-10-10T14:33:54.613145",
+  "downloaded_files": [
+    {
+      "title": "4Q24 Earnings Presentation",
+      "size": 222457,
+      "checksum": "70405287de79147c3842efeeb957fcb6",
+      "quarter": "4",
+      "year": "2024",
+      "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/9aff0e71-2b8c-4f41-ac93-8da74c263894.pdf",
+      "download_timestamp": "2025-10-10T14:33:50.867567",
+      "source_page": "https://www.jpmorganchase.com/ir/quarterly-earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "4Q24 Earnings Press Release",
+      "size": 128701,
+      "checksum": "2846a850fa2bcfe1b403b8875f9679dd",
+      "quarter": "4",
+      "year": "2024",
+      "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/36b3c0a4-3ecd-422e-8167-0a31372f3438.pdf",
+      "download_timestamp": "2025-10-10T14:33:52.325385",
+      "source_page": "https://www.jpmorganchase.com/ir/quarterly-earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "4Q24 Earnings Supplement",
+      "size": 236439,
+      "checksum": "9177d9cbf9d5f78d8db90ba83e7e78f6",
+      "quarter": "4",
+      "year": "2024",
+      "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/42092156-03a0-428c-9692-d7e844b063a1.pdf",
+      "download_timestamp": "2025-10-10T14:33:53.520151",
+      "source_page": "https://www.jpmorganchase.com/ir/quarterly-earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "corp-10k-2024",
+      "size": 7776252,
+      "checksum": "92bc7bd04b5d733c0a372305e915bc43",
+      "quarter": "4",
+      "year": "2024",
+      "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/corp-10k-2024.pdf",
+      "download_timestamp": "2025-10-10T14:33:54.598082",
+      "source_page": "https://www.jpmorganchase.com/ir",
+      "file_type": "pdf"
+    }
+  ]
+}

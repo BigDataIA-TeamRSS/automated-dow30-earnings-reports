@@ -1,0 +1,64 @@
+{
+  "company": "UnitedHealth Group",
+  "ticker": "UNH",
+  "ir_url": "https://www.unitedhealthgroup.com/investors",
+  "pipeline_start_time": "2025-10-10T14:33:49.275970",
+  "pipeline_end_time": "2025-10-10T14:35:27.715591",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:33:49.275996",
+  "scraping_end_time": "2025-10-10T14:34:42.961686",
+  "urls_visited": 2,
+  "urls_found": 82,
+  "extraction_start_time": "2025-10-10T14:34:42.962076",
+  "extraction_end_time": "2025-10-10T14:35:22.415483",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:35:22.415895",
+  "download_end_time": "2025-10-10T14:35:27.715171",
+  "downloaded_files": [
+    {
+      "title": "UNH-Q2-2025-Remarks.pdf",
+      "size": 241947,
+      "checksum": "e23aadc0f223ef5eb7a706e7f9480e7b",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/UNH-Q2-2025-Remarks.pdf",
+      "download_timestamp": "2025-10-10T14:35:23.975551",
+      "source_page": "https://www.unitedhealthgroup.com/investors/financial-reports.html",
+      "file_type": "pdf"
+    },
+    {
+      "title": "UNH-Q2-2025-Form-10-Q.pdf",
+      "size": 247903,
+      "checksum": "b6874354eb5679b9eb8c423216babed0",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/UNH-Q2-2025-Form-10-Q.pdf",
+      "download_timestamp": "2025-10-10T14:35:25.038564",
+      "source_page": "https://www.unitedhealthgroup.com/investors/financial-reports.html",
+      "file_type": "pdf"
+    },
+    {
+      "title": "unh-q2-2025-form-8k.pdf",
+      "size": 343340,
+      "checksum": "f318c1304e7018daa80664412ead8341",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-q2-2025-form-8k.pdf",
+      "download_timestamp": "2025-10-10T14:35:26.002523",
+      "source_page": "https://www.unitedhealthgroup.com/investors/financial-reports.html",
+      "file_type": "pdf"
+    },
+    {
+      "title": "unh-reestablishes-full-year-outlook-and-reports-second-quarter-2025-results.pdf",
+      "size": 304368,
+      "checksum": "1906a63a019a697c53b5ac00b941c161",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reestablishes-full-year-outlook-and-reports-second-quarter-2025-results.pdf",
+      "download_timestamp": "2025-10-10T14:35:27.714130",
+      "source_page": "https://www.unitedhealthgroup.com/investors/financial-reports.html",
+      "file_type": "pdf"
+    }
+  ]
+}
