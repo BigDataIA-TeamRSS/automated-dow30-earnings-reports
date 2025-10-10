@@ -12,27 +12,27 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
-# def truncate_text_for_free_tier(text: str) -> str:
-#     """Truncate text to stay within free tier limits"""
-#     char_count = len(text)
+def truncate_text_for_free_tier(text: str) -> str:
+    """Truncate text to stay within free tier limits"""
+    char_count = len(text)
     
-#     # Free tier limit: 250k tokens per minute
-#     # Rough estimation: 1 token ≈ 1.5 characters for English text
-#     # So 250k tokens ≈ 375k characters
-#     # Be conservative: use 300k characters as limit
+    # Free tier limit: 250k tokens per minute
+    # Rough estimation: 1 token ≈ 1.5 characters for English text
+    # So 250k tokens ≈ 375k characters
+    # Be conservative: use 300k characters as limit
     
-#     if char_count > 300000:
-#         logger.info(f"Text too large ({char_count} chars), truncating to 300k characters")
-#         truncated = text[:300000]
-#         # Try to end at a reasonable point (end of a tag or word)
-#         last_tag = truncated.rfind('>')
-#         if last_tag > 250000:  # If we can find a reasonable break point
-#             truncated = truncated[:last_tag + 1]
-#         logger.info(f"Truncated to {len(truncated)} characters")
-#         return truncated
+    if char_count > 300000:
+        logger.info(f"Text too large ({char_count} chars), truncating to 300k characters")
+        truncated = text[:300000]
+        # Try to end at a reasonable point (end of a tag or word)
+        last_tag = truncated.rfind('>')
+        if last_tag > 250000:  # If we can find a reasonable break point
+            truncated = truncated[:last_tag + 1]
+        logger.info(f"Truncated to {len(truncated)} characters")
+        return truncated
     
-#     logger.info(f"Text size OK ({char_count} chars)")
-#     return text
+    logger.info(f"Text size OK ({char_count} chars)")
+    return text
 
 
 def select_model_based_on_size(text: str) -> str:
@@ -117,7 +117,7 @@ def extract_reports(file):
         # logger.info("Gemini client initialized successfully")
 
         # Truncate text to stay within free tier limits
-        # html = truncate_text_for_free_tier(html)
+        html = truncate_text_for_free_tier(html)
         selected_model = select_model_based_on_size(html)
         # Initialize the AI client (always use 2.0-flash for free tier)
         client = instructor.from_provider(f"google/{selected_model}")
