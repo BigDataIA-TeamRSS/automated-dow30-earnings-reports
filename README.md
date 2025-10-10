@@ -4,4 +4,4 @@ Automated Airflow pipeline for collecting, parsing, and storing quarterly earnin
 Video Link (https://northeastern.zoom.us/rec/share/JdtkiPJ5PgEAMLTRsgvgHg0yqTbXobjy9geRrrVbLusuH-BK9nx0lUXCesmLwA_q.ku44f96G5YTgtE7G 
 Passcode: R=x#f3R.)
 
-
+Documentation : https://drive.google.com/file/d/1vlJf8gxLMt2c8jYIuVL-MFgpUXnKecIl/view?usp=sharing
