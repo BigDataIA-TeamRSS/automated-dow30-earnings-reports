@@ -130,6 +130,12 @@ class EnhancedSeleniumScraper:
         self.document_links = set()  # Store unique document links
         self.max_promising_links = max_promising_links  # Configurable limit for promising links
         
+        # Consistent User-Agent for both Selenium and requests
+        self.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+        
+        # Setup requests session with consistent headers
+        self.setup_session()
+        
         # Exclusion list for URLs that should be filtered out
         # These are typically third-party services or irrelevant domains
         self.exclusion_domains = {
@@ -144,6 +150,21 @@ class EnhancedSeleniumScraper:
         }
         
         self.setup_driver()
+    
+    def setup_session(self):
+        """Setup requests session with consistent browser headers"""
+        import requests
+        
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": self.user_agent,
+            # "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            # "Accept-Language": "en-US,en;q=0.9",
+            # "Accept-Encoding": "gzip, deflate, br",
+            # "Connection": "keep-alive",
+            # "Upgrade-Insecure-Requests": "1",
+            # "Cache-Control": "max-age=0",
+        })
     
     def setup_driver(self):
         """Setup Chrome WebDriver with options"""
@@ -243,7 +264,7 @@ class EnhancedSeleniumScraper:
             for _ in range(scroll_steps):
                 current = min(current + step_size, total_height)
                 self.driver.execute_script("window.scrollTo(0, arguments[0]);", current)
-                time.sleep(random.uniform(1.0, 2.5))  # Increased delay for more human-like behavior
+                time.sleep(random.uniform(.2, 1.5))  # Increased delay for more human-like behavior
             # Scroll back a bit
             self.driver.execute_script("window.scrollTo(0, 0);")
         except Exception:
@@ -403,18 +424,34 @@ class EnhancedSeleniumScraper:
         
         return latest_year, latest_quarter
 
-    def get_pdf_title_from_url(self, url):
-        """Extract PDF title from URL using requests (faster and more reliable)"""
+    def get_pdf_title_from_url(self, url, base_url=None):
+        """Extract PDF title from URL using requests session (consistent with WebDriver)"""
         try:
-            import requests
+            # No global throttle; rely on existing random waits and page pacing
             
-            headers = {
-                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Python-Requests Downloader",
-                "Accept": "application/pdf,application/octet-stream;q=0.9,*/*;q=0.8",
+            # Remove extra jitter to avoid compounding with throttle
+            # time.sleep(random.uniform(1.0, 3.0))
+            
+            # Realistic Chrome navigation headers for document fetch
+            pdf_headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Connection": "keep-alive",
+                # "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "same-origin" if base_url and self._is_same_domain(url, base_url) else "cross-site",
+                "Sec-Fetch-User": "?1",
+                "Cache-Control": "no-cache",
             }
             
-            # Get the PDF headers
-            r = requests.get(url, headers=headers, stream=True, timeout=10)
+            # Add referrer if we have a base URL
+            if base_url:
+                pdf_headers["Referer"] = base_url
+            
+            # Use the session with consistent User-Agent
+            r = self.session.get(url, headers=pdf_headers, stream=True, timeout=20)
             r.raise_for_status()
             
             # Check if it's actually a PDF
@@ -435,11 +472,29 @@ class EnhancedSeleniumScraper:
                 if m:
                     return m.group("fn").strip()
             
+            # Fallback: derive from URL slug
+            try:
+                slug = url.rstrip('/').split('/')[-1]
+                if slug:
+                    return slug if '.' in slug else f"{slug}.pdf"
+            except Exception:
+                pass
+            
             return None
             
         except Exception as e:
             logger.warning(f"Could not extract PDF title from {url}: {e}")
         return None
+    
+    def _is_same_domain(self, url1, url2):
+        """Check if two URLs are from the same domain"""
+        try:
+            from urllib.parse import urlparse
+            domain1 = urlparse(url1).netloc
+            domain2 = urlparse(url2).netloc
+            return domain1 == domain2
+        except:
+            return False
 
     def is_internal_link(self, url, base_url):
         """Check if a URL is internal to the same domain"""
@@ -532,7 +587,7 @@ class EnhancedSeleniumScraper:
         
         # For ALL document links, try to get better title from the PDF
         if link_type == "document":
-            pdf_title = self.get_pdf_title_from_url(full_url)
+            pdf_title = self.get_pdf_title_from_url(full_url, base_url)
             if pdf_title:
                 title = pdf_title
         
@@ -668,27 +723,35 @@ class EnhancedSeleniumScraper:
                             logger.info(f"Skipped external link: {link['text']} -> {link['url']}")
             
             # Human-like delay between requests
-
             time.sleep(random.randint(2, 4))
         
         # Filter to only document links
         all_document_links = [link for link in self.document_links if link.is_document()]
         navigational_links = [link for link in self.document_links if link.is_navigational()]
-        
-        # Find the latest quarter across all document links
-        latest_year, latest_quarter = self.find_latest_quarter(all_document_links)
-        logger.info(f"Latest quarter found: {latest_year}Q{latest_quarter}")
-        
-        # Filter document links to only the latest quarter
+
+        # ORIGINAL latest-quarter filter (disabled per new policy)
+        # latest_year, latest_quarter = self.find_latest_quarter(all_document_links)
+        # logger.info(f"Latest quarter found: {latest_year}Q{latest_quarter}")
+        # document_links = []
+        # for link in all_document_links:
+        #     if self.is_latest_quarter_document(link.text, link.href, link.title, latest_year, latest_quarter):
+        #         document_links.append(link)
+
+        # NEW policy: keep all document links; only skip PDFs clearly older than 2023
+        MIN_YEAR = 2023
         document_links = []
         for link in all_document_links:
-            if self.is_latest_quarter_document(link.text, link.href, link.title, latest_year, latest_quarter):
-                document_links.append(link)
+            year, _ = self.extract_year_quarter(link.text, link.href, link.title)
+            if link.file_extension == 'pdf':
+                if year is not None and year < MIN_YEAR:
+                    logger.info(f"❌ Skipping old PDF ({year} < {MIN_YEAR}): {link.href}")
+                    continue
+            document_links.append(link)
         
         logger.info(f"Completed crawl for {company_name}")
         logger.info(f"Total links found: {len(self.document_links)}")
         logger.info(f"All document links: {len(all_document_links)}")
-        logger.info(f"Latest quarter document links: {len(document_links)}")
+        logger.info(f"Kept document links after PDF age filter: {len(document_links)}")
         logger.info(f"Navigational links: {len(navigational_links)}")
         
         return document_links  # Return only document links
@@ -704,10 +767,13 @@ class EnhancedSeleniumScraper:
             logger.error(f"Error saving content: {e}")
     
     def close(self):
-        """Close the WebDriver"""
+        """Close the WebDriver and session"""
         if self.driver:
             self.driver.quit()
             logger.info("WebDriver closed")
+        if hasattr(self, 'session'):
+            self.session.close()
+            logger.info("Requests session closed")
 
 def get_investor_relation_urls(csv_path="dow30_companies.csv"):
     """
