@@ -1,0 +1,2 @@
+title='Second Quarter 2025 Form 10-Q' category='10-Q' url='https://www.goldmansachs.com/investor-relations/financials/10q/2025/second-quarter-2025-10-q.pdf' year=2025 quarter=2
+title='Second Quarter 2025 Pillar 3 Disclosures' category='Pillar 3 Disclosures' url='https://www.goldmansachs.com/investor-relations/financials/other-information/2025/2q-pillar-3-2025.pdf' year=2025 quarter=2

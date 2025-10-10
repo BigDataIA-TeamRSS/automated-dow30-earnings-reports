@@ -1,0 +1,2 @@
+title='Presentation' category='Earnings Presentation' url='https://s2.q4cdn.com/661678649/files/doc_events/2025/Sep/11/Presentation.pdf' year=2025 quarter=2
+title='Transcript' category='Earnings Transcript' url='https://s2.q4cdn.com/661678649/files/doc_events/2025/Sep/11/Transcript.pdf' year=2025 quarter=2

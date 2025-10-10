@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from pathlib import Path
 import time
 import logging
 from pathlib import Path
@@ -25,12 +26,22 @@ import sys
 # Project root (one level up from this `src` directory)
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
+# Ensure logs directory exists
+# log_dir = PROJECT_ROOT / 'logs'
+# log_dir.mkdir(exist_ok=True)
+
+if os.path.exists('/opt/airflow'):
+    log_dir = Path('/opt/airflow/logs')
+else:
+    log_dir = PROJECT_ROOT / 'logs'
+log_dir.mkdir(exist_ok=True, parents=True)
+
 # Configure logging (log file in logs directory)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(str(PROJECT_ROOT / 'logs' / 'enhanced_selenium_scraper.log')),
+        logging.FileHandler(str(log_dir / 'enhanced_selenium_scraper.log')),
         logging.StreamHandler()
     ]
 )
@@ -122,7 +133,7 @@ class DocumentLink:
 class EnhancedSeleniumScraper:
     """Enhanced Selenium-based scraper with intelligent navigation"""
     
-    def __init__(self, headless=True, max_promising_links=5):
+    def __init__(self, headless=False, max_promising_links=5):
         """Initialize Chrome WebDriver"""
         self.driver = None
         self.headless = headless
@@ -142,7 +153,15 @@ class EnhancedSeleniumScraper:
             'webex.com',
             'gotomeeting.com'
         }
-        
+
+        self.user_agent = (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    )
+    
+    # Now setup_driver can use self.user_agent
+   
         self.setup_driver()
     
     def setup_driver(self):

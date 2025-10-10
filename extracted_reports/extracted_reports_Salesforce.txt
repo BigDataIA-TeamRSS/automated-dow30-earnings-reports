@@ -1,0 +1,4 @@
+title='Earnings Release' category='Earnings Release' url='https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/CRM-Q2-FY26-Earnings-Press-Release-w-financials.pdf' year=2026 quarter=2
+title='Transcript' category='Transcript' url='https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/Salesforce-Inc-Q2-FY26-Earnings-Conference-Call-9-3-25.pdf' year=2026 quarter=2
+title='Form 10Q' category='Quarterly Filing' url='https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/e0ddcab1-0019-4bae-b695-635df2e6ff0f.pdf' year=2026 quarter=2
+title='Earnings Presentation' category='Earnings Presentation' url='https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/CRM-Q2-FY26-Quarterly-Investor-Deck_FINAL.pdf' year=2026 quarter=2

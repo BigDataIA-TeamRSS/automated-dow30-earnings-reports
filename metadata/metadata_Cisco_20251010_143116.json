@@ -1,0 +1,141 @@
+{
+  "company": "Cisco",
+  "ticker": "CSCO",
+  "ir_url": "https://investor.cisco.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.194224",
+  "pipeline_end_time": "2025-10-10T14:31:16.407352",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.199399",
+  "scraping_end_time": "2025-10-10T14:30:18.955362",
+  "urls_visited": 5,
+  "urls_found": 287,
+  "extraction_start_time": "2025-10-10T14:30:18.955789",
+  "extraction_end_time": "2025-10-10T14:31:01.107226",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:31:01.107643",
+  "download_end_time": "2025-10-10T14:31:16.406707",
+  "downloaded_files": [
+    {
+      "title": "Q4FY25 Income Statements and GAAP Reconciliation",
+      "size": 130588,
+      "checksum": "9eb627fe732dff8bf18ce1dcffea664e",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Income-Statements-GAAP-Reconciliation.xlsx",
+      "download_timestamp": "2025-10-10T14:31:02.661583",
+      "source_page": "https://investor.cisco.com",
+      "file_type": "xlsx"
+    },
+    {
+      "title": "Q4FY25 Balance Sheet",
+      "size": 27135,
+      "checksum": "4009933d68b64ec8179378d1a8837687",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Balance-Sheet.xlsx",
+      "download_timestamp": "2025-10-10T14:31:03.745308",
+      "source_page": "https://investor.cisco.com/financial-information/financial-results/default.aspx",
+      "file_type": "xlsx"
+    },
+    {
+      "title": "Q4FY25 Press Release",
+      "size": 222837,
+      "checksum": "ee34a4a1878c498849fead46157df5b9",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/earnings-result/Q4FY25-Press-Release.pdf",
+      "download_timestamp": "2025-10-10T14:31:05.147383",
+      "source_page": "https://investor.cisco.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q4FY25 Revenue by Geographic Segment",
+      "size": 34002,
+      "checksum": "518d8888becb9c54edeb4d6a39a8e668",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/generic/Q4-25-Revenue-by-Geographic-Segment.xlsx",
+      "download_timestamp": "2025-10-10T14:31:06.007970",
+      "source_page": "https://investor.cisco.com/financial-information/financial-results/default.aspx",
+      "file_type": "xlsx"
+    },
+    {
+      "title": "10-K (Q4FY25 Filing)",
+      "size": 1322115,
+      "checksum": "0ae78f6ebc509cbe9800b5ea417c3f52",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/6c821d1a-cf4e-4310-9801-df9399aa701b.pdf",
+      "download_timestamp": "2025-10-10T14:31:07.712726",
+      "source_page": "https://investor.cisco.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q4FY25 Earnings Slides",
+      "size": 513374,
+      "checksum": "fb61b103bde1a8dfe9d7ed40e0c1182b",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/presentation/Q4FY25-Earnings-Slides.pdf",
+      "download_timestamp": "2025-10-10T14:31:09.237001",
+      "source_page": "https://investor.cisco.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q4FY25 Statements of Cash Flow and Recon CF from Op to FCF",
+      "size": 35304,
+      "checksum": "212a46245673379dd46a1ec92e9a9318",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Statements-of-Cash-Flow-and-Recon-CF-From-Op-to-FCF.xlsx",
+      "download_timestamp": "2025-10-10T14:31:10.468919",
+      "source_page": "https://investor.cisco.com/financial-information/financial-results/default.aspx",
+      "file_type": "xlsx"
+    },
+    {
+      "title": "Q4FY25 Revenue by Product Category and Service",
+      "size": 26815,
+      "checksum": "87d100c590307c18accd89105daff217",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/generic/Q4-25-Revenue-by-Product-Category-Service.xlsx",
+      "download_timestamp": "2025-10-10T14:31:11.497569",
+      "source_page": "https://investor.cisco.com/financial-information/financial-results/default.aspx",
+      "file_type": "xlsx"
+    },
+    {
+      "title": "Q4FY25 Prepared Remarks",
+      "size": 219981,
+      "checksum": "f078f45ce792e6d47eb9d27b50e8086e",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/transcript/Q4FY25-Prepared-Remarks.pdf",
+      "download_timestamp": "2025-10-10T14:31:13.571680",
+      "source_page": "https://investor.cisco.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q4FY25 Gross Margin by Segment",
+      "size": 27080,
+      "checksum": "f258da7e5e255ea333c595eb4c33d9e2",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Gross-Margin-by-Segment.xlsx",
+      "download_timestamp": "2025-10-10T14:31:15.053694",
+      "source_page": "https://investor.cisco.com/financial-information/financial-results/default.aspx",
+      "file_type": "xlsx"
+    },
+    {
+      "title": "Q4FY25 Supplemental Financial Details",
+      "size": 30975,
+      "checksum": "5e227a923ca6d61b43a85208c065750d",
+      "quarter": "4",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Supplemental-Financial-Details.xlsx",
+      "download_timestamp": "2025-10-10T14:31:16.406463",
+      "source_page": "https://investor.cisco.com/financial-information/financial-results/default.aspx",
+      "file_type": "xlsx"
+    }
+  ]
+}

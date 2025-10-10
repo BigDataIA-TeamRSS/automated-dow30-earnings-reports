@@ -1,0 +1,64 @@
+{
+  "company": "Boeing",
+  "ticker": "BA",
+  "ir_url": "https://investors.boeing.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.193860",
+  "pipeline_end_time": "2025-10-10T14:30:44.262114",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.197974",
+  "scraping_end_time": "2025-10-10T14:30:09.664385",
+  "urls_visited": 6,
+  "urls_found": 6,
+  "extraction_start_time": "2025-10-10T14:30:09.664921",
+  "extraction_end_time": "2025-10-10T14:30:39.778007",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:30:39.778245",
+  "download_end_time": "2025-10-10T14:30:44.261832",
+  "downloaded_files": [
+    {
+      "title": "Transcript.pdf",
+      "size": 558766,
+      "checksum": "ef9c4f08e3999f0dbae4c7fb8c77655d",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/661678649/files/doc_financials/2025/q2/Transcript.pdf",
+      "download_timestamp": "2025-10-10T14:30:41.172417",
+      "source_page": "https://investors.boeing.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-Press-Release.pdf",
+      "size": 172644,
+      "checksum": "9d4f5622e07aa443e58a0ff3be15b592",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/661678649/files/doc_financials/2025/q2/2Q25-Press-Release.pdf",
+      "download_timestamp": "2025-10-10T14:30:42.119424",
+      "source_page": "https://investors.boeing.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "aa4c5a9d-9b8c-41fe-8072-4285e3166a5f.pdf",
+      "size": 586312,
+      "checksum": "68bda042f5f54d25b02f5533f373270d",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/661678649/files/doc_financials/2025/q2/aa4c5a9d-9b8c-41fe-8072-4285e3166a5f.pdf",
+      "download_timestamp": "2025-10-10T14:30:43.028681",
+      "source_page": "https://investors.boeing.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-Presentation.pdf",
+      "size": 15260988,
+      "checksum": "44d7ff692a157e3dd0aa5ccdc5006e34",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/661678649/files/doc_financials/2025/q2/2Q25-Presentation.pdf",
+      "download_timestamp": "2025-10-10T14:30:44.213612",
+      "source_page": "https://investors.boeing.com",
+      "file_type": "pdf"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+title='Earnings Infographic' category='doc_financials' url='https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/Earnings-Infographic-4Q2024.pdf' year=2024 quarter=4
+title='2024 Fourth-Quarter Infographic & Earnings Presentation' category='doc_financials' url='https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/Final-JNJ-Earnings-Presentation-4Q2024-Webcast.pdf' year=2024 quarter=4
+title='Form 10-K' category='doc_financials' url='https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/Form-10-K-2024-as-filed-13Feb2025.pdf' year=2024 quarter=4
+title='2024 Fourth-Quarter Earnings Transcript' category='doc_financials' url='https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/FINAL-FINAL-UPDATE-JNJ-USQ_Transcript_2025-01-22-1.pdf' year=2024 quarter=4
+title='2024 Fourth-Quarter Press Release & Supplemental Schedules' category='doc_financials' url='https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/4Q24-Press-Release-with-attachments.pdf' year=2024 quarter=4
+title='4Q24 Other Financial Disclosures (Excel)' category='doc_financials' url='https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/PROTECTED-4Q24-Other-Financial-Disclosures.xlsx' year=2024 quarter=4
+title='4Q24 Other Financial Disclosures (PDF)' category='doc_financials' url='https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/PROTECTED-4Q24-Other-Financial-Disclosures.pdf' year=2024 quarter=4

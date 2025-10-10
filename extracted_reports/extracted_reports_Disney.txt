@@ -1,0 +1,3 @@
+title='Q4 FY24 Earnings Report' category='financial document' url='https://thewaltdisneycompany.com/app/uploads/2024/11/q4-fy24-earnings.pdf' year=2024 quarter=4
+title='Q4 FY24 Executive Commentary' category='financial document' url='https://thewaltdisneycompany.com/app/uploads/2024/11/q4-fy24-executive-commentary.pdf' year=2024 quarter=4
+title='Q4 FY24 Financial Reconciliation' category='financial document' url='https://thewaltdisneycompany.com/app/uploads/2024/11/reconciliation_q4_fy24.pdf' year=2024 quarter=4

@@ -1,0 +1,4 @@
+title='2025 Annual Report (PDF)' category='Annual Report' url='https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025_annual_report.pdf' year=2025 quarter=4
+title='2025 Form 10-K' category='SEC Filing' url='https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/d5551ac1-abaa-45fb-92fa-0bd5218d58c6.pdf' year=2025 quarter=4
+title='2025 Financials' category='Financial Statement' url='https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/PG-2025-Financial-Statements-for-IR-site.xlsx' year=2025 quarter=4
+title='2025 Proxy Statement' category='Proxy Statement' url='https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025-Proxy-PG.pdf' year=2025 quarter=4

@@ -1,0 +1,31 @@
+{
+  "company": "Honeywell",
+  "ticker": "HON",
+  "ir_url": "https://investor.honeywell.com",
+  "pipeline_start_time": "2025-10-10T14:30:26.699342",
+  "pipeline_end_time": "2025-10-10T14:32:48.312269",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:30:26.699383",
+  "scraping_end_time": "2025-10-10T14:32:25.821738",
+  "urls_visited": 5,
+  "urls_found": 120,
+  "extraction_start_time": "2025-10-10T14:32:25.821990",
+  "extraction_end_time": "2025-10-10T14:32:47.195977",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:32:47.196308",
+  "download_end_time": "2025-10-10T14:32:48.312144",
+  "downloaded_files": [
+    {
+      "title": "HON 3Q25 Earnings Release Announcement_v1.pdf",
+      "size": 102943,
+      "checksum": "dd45adbc8166c3908bd0eb78a9a0a963",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://investor.honeywell.com/static-files/59c8d559-a4db-47b5-bcc5-0dd7c70b70fb",
+      "download_timestamp": "2025-10-10T14:32:48.311896",
+      "source_page": "https://investor.honeywell.com",
+      "file_type": "com/static-files/59c8d559-a4db-47b5-bcc5-0dd7c70b70fb"
+    }
+  ]
+}

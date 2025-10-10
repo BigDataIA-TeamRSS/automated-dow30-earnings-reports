@@ -1,0 +1,6 @@
+title='vz2q25_fs_072125.pdf' category='Financial statements' url='https://www.verizon.com/about/file/75789/download?token=wNIH2JVz' year=2025 quarter=2
+title='vz2q25_nongaap_072125v2.pdf' category='Non-GAAP reconciliations' url='https://www.verizon.com/about/file/75851/download?token=Jnh9vDNQ' year=2025 quarter=2
+title='vz2q25_infographic_072125v2.pdf' category='Infographic' url='https://www.verizon.com/about/file/75847/download?token=uZs35jcy' year=2025 quarter=2
+title='vz2q25_earnings_transcript_072125.pdf' category='Transcript' url='https://www.verizon.com/about/file/75853/download?token=I0qvRZQd' year=2025 quarter=2
+title='vz2q25_earnings_presentation_072125.pdf' category='Presentation' url='https://www.verizon.com/about/file/75785/download?token=kpMIKbqE' year=2025 quarter=2
+title='vz2q25_foi_072125v2.pdf' category='Financial & Operating Information' url='https://www.verizon.com/about/file/75849/download?token=IVkHtr6a' year=2025 quarter=2

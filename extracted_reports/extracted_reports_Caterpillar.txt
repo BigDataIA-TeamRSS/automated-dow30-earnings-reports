@@ -1,0 +1,4 @@
+title='Retail Statistics of Q4 2024 Report' category='Retail Statistics Report' url='https://s25.q4cdn.com/358376879/files/doc_financials/2024/q4/4Q-2024-Caterpillar-Retail-Statistics.pdf' year=2024 quarter=4
+title='Transcript of Q4 2024 Report' category='Earnings Call Transcript' url='https://s25.q4cdn.com/358376879/files/doc_financials/2024/q4/4Q-2024-Caterpillar-Inc-Earnings-Call-Transcript_1-30-2025_vF.pdf' year=2024 quarter=4
+title='Earnings Presentation of Q4 2024 Report' category='Earnings Presentation' url='https://s25.q4cdn.com/358376879/files/doc_financials/2024/q4/4Q-2024-Analyst-Slide-Deck_Final.pdf' year=2024 quarter=4
+title='4Q- 2024 Document' category='Quarterly Financial Document' url='https://s25.q4cdn.com/358376879/files/doc_financials/2024/q4/d10913c3-95ae-450c-9432-f55a05fa18c0.pdf' year=2024 quarter=4

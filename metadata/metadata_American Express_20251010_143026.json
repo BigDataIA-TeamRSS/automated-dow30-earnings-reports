@@ -1,0 +1,163 @@
+{
+  "company": "American Express",
+  "ticker": "AXP",
+  "ir_url": "https://ir.americanexpress.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.193025",
+  "pipeline_end_time": "2025-10-10T14:30:26.695632",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.193410",
+  "scraping_end_time": "2025-10-10T14:29:08.258069",
+  "urls_visited": 3,
+  "urls_found": 18,
+  "extraction_start_time": "2025-10-10T14:29:08.258171",
+  "extraction_end_time": "2025-10-10T14:30:10.666351",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:30:10.666558",
+  "download_end_time": "2025-10-10T14:30:26.695261",
+  "downloaded_files": [
+    {
+      "title": "Q2-2025-Earnings-Presentation.pdf",
+      "size": 723922,
+      "checksum": "8c9727c15ad7d22389ef76c927cdddb9",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/q2/Q2-2025-Earnings-Presentation.pdf",
+      "download_timestamp": "2025-10-10T14:30:12.279055",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "af2281cc-70be-4ae4-bfb3-a36ff373ba59.pdf",
+      "size": 753107,
+      "checksum": "f9905ca48e00835b87ba519a6b79c3c4",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/q2/af2281cc-70be-4ae4-bfb3-a36ff373ba59.pdf",
+      "download_timestamp": "2025-10-10T14:30:13.101866",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q2-2025-Earnings-Press-Release.pdf",
+      "size": 235576,
+      "checksum": "896b5b59f6912d9710b0f03a4f077f5a",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/q2/Q2-2025-Earnings-Press-Release.pdf",
+      "download_timestamp": "2025-10-10T14:30:14.382281",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q2-2025-Earnings-Tables.pdf",
+      "size": 214977,
+      "checksum": "115e6729216bee3e6306df3a7187d6ea",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/q2/Q2-2025-Earnings-Tables.pdf",
+      "download_timestamp": "2025-10-10T14:30:15.367948",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "af2281cc-70be-4ae4-bfb3-a36ff373ba59.pdf",
+      "size": 753107,
+      "checksum": "f9905ca48e00835b87ba519a6b79c3c4",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/af2281cc-70be-4ae4-bfb3-a36ff373ba59.pdf",
+      "download_timestamp": "2025-10-10T14:30:16.888535",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "65345cb2-3baf-42fd-ad88-968e29a7264a.pdf",
+      "size": 2083696,
+      "checksum": "c8d906d9491ee9c809f2ac67111121bf",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/65345cb2-3baf-42fd-ad88-968e29a7264a.pdf",
+      "download_timestamp": "2025-10-10T14:30:17.884202",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "154552a3-3085-47b6-bc87-28a9ae17d317.pdf",
+      "size": 158519,
+      "checksum": "d967ad2484d1fa9e848a67d5c0cee60a",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/154552a3-3085-47b6-bc87-28a9ae17d317.pdf",
+      "download_timestamp": "2025-10-10T14:30:19.256320",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "7c453cba-8142-41a0-bb49-9f0b59aa357a.zip",
+      "size": 630921,
+      "checksum": "9fe730b449bfe76d9f8af981c084b0b0",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/7c453cba-8142-41a0-bb49-9f0b59aa357a.zip",
+      "download_timestamp": "2025-10-10T14:30:20.635040",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "zip"
+    },
+    {
+      "title": "dae9b01e-988d-48f5-9f1d-15ea150eb347.zip",
+      "size": 364655,
+      "checksum": "d8d9fb4ce206c3b24ec076adf0d28cb9",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/dae9b01e-988d-48f5-9f1d-15ea150eb347.zip",
+      "download_timestamp": "2025-10-10T14:30:21.986665",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "zip"
+    },
+    {
+      "title": "77a2d915-6955-496d-a0df-c6ed36fe1937.zip",
+      "size": 10349,
+      "checksum": "98fd2c6470dcd2c56e4dcdcac6c2cb64",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/77a2d915-6955-496d-a0df-c6ed36fe1937.zip",
+      "download_timestamp": "2025-10-10T14:30:23.125334",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "zip"
+    },
+    {
+      "title": "fd2ab8f6-f020-4239-a2df-0895d3088e91.xls",
+      "size": 434690,
+      "checksum": "2cb2604a9faf1ee4e010f3efc1e1530f",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/fd2ab8f6-f020-4239-a2df-0895d3088e91.xls",
+      "download_timestamp": "2025-10-10T14:30:24.714209",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "xls"
+    },
+    {
+      "title": "3f42e01d-a782-4981-af11-520e6fb7e950.xls",
+      "size": 307424,
+      "checksum": "157e8309dd3a4d1e9ec110eca2e77cdc",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/3f42e01d-a782-4981-af11-520e6fb7e950.xls",
+      "download_timestamp": "2025-10-10T14:30:25.707317",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "xls"
+    },
+    {
+      "title": "c72e3892-878b-4f19-8b29-244132c273b8.xls",
+      "size": 10752,
+      "checksum": "6934ed3f165476b77a5eb9b9371d528f",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004962/c72e3892-878b-4f19-8b29-244132c273b8.xls",
+      "download_timestamp": "2025-10-10T14:30:26.695148",
+      "source_page": "https://ir.americanexpress.com",
+      "file_type": "xls"
+    }
+  ]
+}

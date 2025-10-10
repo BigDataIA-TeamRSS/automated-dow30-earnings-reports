@@ -1,0 +1,64 @@
+{
+  "company": "Amazon",
+  "ticker": "AMZN",
+  "ir_url": "https://ir.aboutamazon.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.193493",
+  "pipeline_end_time": "2025-10-10T14:29:32.303651",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.194093",
+  "scraping_end_time": "2025-10-10T14:28:51.578172",
+  "urls_visited": 2,
+  "urls_found": 81,
+  "extraction_start_time": "2025-10-10T14:28:51.578317",
+  "extraction_end_time": "2025-10-10T14:29:27.020678",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:29:27.020846",
+  "download_end_time": "2025-10-10T14:29:32.303441",
+  "downloaded_files": [
+    {
+      "title": "Amazon-Quarterly-Earnings-Report-Q2-2025-Full-Call.mp3",
+      "size": 79201520,
+      "checksum": "1fd1920d075244c22facdfa72c415094",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q2/Amazon-Quarterly-Earnings-Report-Q2-2025-Full-Call.mp3",
+      "download_timestamp": "2025-10-10T14:29:28.712509",
+      "source_page": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+      "file_type": "mp3"
+    },
+    {
+      "title": "Webslides_Q225.pdf",
+      "size": 114583,
+      "checksum": "fefa735584e543ac8386ac576c633dc3",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q2/Webslides_Q225.pdf",
+      "download_timestamp": "2025-10-10T14:29:30.089479",
+      "source_page": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "AMZN-Q2-2025-Earnings-Release.pdf",
+      "size": 357035,
+      "checksum": "4e63c188febc03f61f9e876091144861",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q2/AMZN-Q2-2025-Earnings-Release.pdf",
+      "download_timestamp": "2025-10-10T14:29:31.086980",
+      "source_page": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "ec928e37-9d69-4f96-b0ab-b40020515e03.pdf",
+      "size": 508966,
+      "checksum": "3e3a23e769f84ec59dc2129b37cf9f83",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q2/ec928e37-9d69-4f96-b0ab-b40020515e03.pdf",
+      "download_timestamp": "2025-10-10T14:29:32.301331",
+      "source_page": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+      "file_type": "pdf"
+    }
+  ]
+}

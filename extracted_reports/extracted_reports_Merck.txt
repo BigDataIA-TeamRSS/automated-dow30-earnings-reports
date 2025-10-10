@@ -1,0 +1,2 @@
+title='2Q25 Merck Other Financial Disclosures' category='Other Financial Disclosures' url='https://www.merck.com/wp-content/uploads/sites/152/2025/07/2Q25-Merck-Other-Financial-Disclosures.pdf' year=2025 quarter=2
+title='2Q25 Merck Earnings Announcement' category='Earnings Announcement' url='https://www.merck.com/wp-content/uploads/sites/152/2025/07/2Q25-Merck-Earnings-Announcement.pdf' year=2025 quarter=2

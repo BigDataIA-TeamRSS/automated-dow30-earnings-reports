@@ -1,0 +1,3 @@
+title='NIKE, Inc. Announces Fiscal 2026 First Quarter Results' category='document' url='https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320187/ee5d02ac-5e02-4828-9020-9a56bd3d6f8f.pdf' year=2026 quarter=1
+title='NIKE, Inc. Q1 FY26 OFFICIAL Transcript - FINAL' category='document' url='https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf' year=2026 quarter=1
+title='NIKE, Inc. Supplemental Financial Data Q1 Fiscal Year 2026' category='document' url='https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320187/fe572c6e-ea6c-4001-9dd5-531ce400eb55.xls' year=2026 quarter=1

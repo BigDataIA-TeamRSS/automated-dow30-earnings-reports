@@ -1,0 +1,4 @@
+title='Presentation' category='Presentation' url='https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/Webslides_Q424_Final.pdf' year=2024 quarter=4
+title='10-K' category='10-K' url='https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/e42c2068-bad5-4ab6-ae57-36ff8b2aeffd.pdf' year=2024 quarter=4
+title='Earnings Release (PDF)' category='Earnings Release (PDF)' url='https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/AMZN-Q4-2024-Earnings-Release.pdf' year=2024 quarter=4
+title='Webcast' category='Webcast' url='https://ir.aboutamazon.com/files/doc_financials/2024/q4/Amazon-Quarterly-Earnings-Report-Q4-2024-Full-Call-v1.wav' year=2024 quarter=4

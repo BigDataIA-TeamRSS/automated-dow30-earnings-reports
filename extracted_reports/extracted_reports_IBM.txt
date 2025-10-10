@@ -1,0 +1,4 @@
+title='ibm-2q25-earnings-press-release.pdf' category='Press release' url='https://www.ibm.com/downloads/documents/us-en/131cf8a39db327fd' year=2025 quarter=2
+title='ibm-2q25-earnings-prepared-remarks.pdf' category='Prepared remarks' url='https://www.ibm.com/downloads/documents/us-en/131cf87ac1331e91' year=2025 quarter=2
+title='ibm-2q25-earnings-charts.pdf' category='Charts' url='https://www.ibm.com/downloads/documents/us-en/131cf8a39db327ff' year=2025 quarter=2
+title='ibm-2q25-earnings-transcript.pdf' category='Transcript' url='https://www.ibm.com/downloads/documents/us-en/137a1e23d85ba686' year=2025 quarter=2

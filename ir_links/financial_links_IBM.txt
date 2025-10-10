@@ -1,0 +1,109 @@
+title='ibm-1q25-earnings-charts.pdf' text='Charts' url='https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1b6' type='document' file_extension='com/downloads/documents/us-en/12bb2f913a3ba1b6' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/12BB2F913A3BA1B6 File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1b6" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Charts</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-2q25-earnings-press-release.pdf' text='Press release' url='https://www.ibm.com/downloads/documents/us-en/131cf8a39db327fd' type='document' file_extension='com/downloads/documents/us-en/131cf8a39db327fd' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/131CF8A39DB327FD File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/131cf8a39db327fd" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Press release</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-4q24-earnings-charts.pdf' text='Charts' url='https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec79' type='document' file_extension='com/downloads/documents/us-en/11ed3283ae56ec79' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/11ED3283AE56EC79 File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec79" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Charts</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-3q24-earnings-prepared-remarks.pdf' text='Prepared remarks' url='https://www.ibm.com/downloads/documents/us-en/10c31776cd540ff7' type='document' file_extension='com/downloads/documents/us-en/10c31776cd540ff7' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/10C31776CD540FF7 File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/10c31776cd540ff7" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Prepared remarks</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-2q25-earnings-prepared-remarks.pdf' text='Prepared remarks' url='https://www.ibm.com/downloads/documents/us-en/131cf87ac1331e91' type='document' file_extension='com/downloads/documents/us-en/131cf87ac1331e91' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/131CF87AC1331E91 File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/131cf87ac1331e91" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Prepared remarks</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-3q24-earnings-press-release.pdf' text='Press release' url='https://www.ibm.com/downloads/documents/us-en/10a9980468afdf4c' type='document' file_extension='com/downloads/documents/us-en/10a9980468afdf4c' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/10A9980468AFDF4C File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/10a9980468afdf4c" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Press release</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-4q24-earnings-prepared-remarks.pdf' text='Prepared remarks' url='https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec7c' type='document' file_extension='com/downloads/documents/us-en/11ed3283ae56ec7c' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/11ED3283AE56EC7C File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec7c" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Prepared remarks</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-1q25-earnings-press-release.pdf' text='Press release' url='https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1a2' type='document' file_extension='com/downloads/documents/us-en/12bb2f913a3ba1a2' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/12BB2F913A3BA1A2 File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1a2" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Press release</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-2q25-earnings-charts.pdf' text='Charts' url='https://www.ibm.com/downloads/documents/us-en/131cf8a39db327ff' type='document' file_extension='com/downloads/documents/us-en/131cf8a39db327ff' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/131CF8A39DB327FF File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/131cf8a39db327ff" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Charts</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-2q25-earnings-transcript.pdf' text='' url='https://www.ibm.com/downloads/documents/us-en/137a1e23d85ba686' type='document' file_extension='com/downloads/documents/us-en/137a1e23d85ba686' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/137A1E23D85BA686 File' source_url='https://www.ibm.com/investor/events/earnings-2q25' full_html='<a href="https://www.ibm.com/downloads/documents/us-en/137a1e23d85ba686" style="display: contents;" target="_blank"></a>'
+title='ibm-4q24-earnings-press-release.pdf' text='Press release' url='https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec71' type='document' file_extension='com/downloads/documents/us-en/11ed3283ae56ec71' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/11ED3283AE56EC71 File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec71" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Press release</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-1q25-earnings-prepared-remarks.pdf' text='Prepared remarks' url='https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1b8' type='document' file_extension='com/downloads/documents/us-en/12bb2f913a3ba1b8' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/12BB2F913A3BA1B8 File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1b8" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Prepared remarks</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'
+title='ibm-3q24-earnings-charts.pdf' text='Charts' url='https://www.ibm.com/downloads/documents/us-en/10a9980468afdf4e' type='document' file_extension='com/downloads/documents/us-en/10a9980468afdf4e' document_type='COM/DOWNLOADS/DOCUMENTS/US-EN/10A9980468AFDF4E File' source_url='https://www.ibm.com/investor' full_html='<a cta-type="pdf" data-dynamic-properties='{"ctaUrl":"href"}' data-link-type="pdf" data-video-modal-type="media-center" href="https://www.ibm.com/downloads/documents/us-en/10a9980468afdf4e" icon-placement="right" target="_blank">
+<span class="cds--link-text" data-dynamic-inner-content="ctaLabel" data-link-text="">Charts</span>
+<!-- LTR - Left to Right version -->
+<!-- RTL - Right to Left version -->
+<svg aria-hidden="true" fill="currentColor" focusable="false" height="20" slot="icon" viewbox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 18L30 16 24 16 24 26 26 26 26 22 29 22 29 20 26 20 26 18 30 18zM19 26H15V16h4a3.0033 3.0033 0 013 3v4A3.0033 3.0033 0 0119 26zm-2-2h2a1.0011 1.0011 0 001-1V19a1.0011 1.0011 0 00-1-1H17zM11 16H6V26H8V23h3a2.0027 2.0027 0 002-2V18A2.0023 2.0023 0 0011 16zM8 21V18h3l.001 3z"></path>
+<path d="M22,14V10a.9092.9092,0,0,0-.3-.7l-7-7A.9087.9087,0,0,0,14,2H4A2.0059,2.0059,0,0,0,2,4V28a2,2,0,0,0,2,2H20V28H4V4h8v6a2.0059,2.0059,0,0,0,2,2h6v2Zm-8-4V4.4L19.6,10Z"></path>
+</svg>
+</a>'

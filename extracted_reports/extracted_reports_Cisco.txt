@@ -1,0 +1,11 @@
+title='Slides' category='Presentation Slides' url='https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/presentation/Q4FY25-Earnings-Slides.pdf' year=2025 quarter=4
+title='Press release' category='Press Release' url='https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/earnings-result/Q4FY25-Press-Release.pdf' year=2025 quarter=4
+title='Q4 Revenue by Geographic Segment' category='Financial Data (Excel)' url='https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/generic/Q4-25-Revenue-by-Geographic-Segment.xlsx' year=2025 quarter=4
+title='Q4 Revenue by Product Category and Service' category='Financial Data (Excel)' url='https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/generic/Q4-25-Revenue-by-Product-Category-Service.xlsx' year=2025 quarter=4
+title='Q4 Gross Margin by Segment' category='Financial Data (Excel)' url='https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Gross-Margin-by-Segment.xlsx' year=2025 quarter=4
+title='Q4 Statements of Cash Flow and Recon CF from Op to FCF' category='Financial Data (Excel)' url='https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Statements-of-Cash-Flow-and-Recon-CF-From-Op-to-FCF.xlsx' year=2025 quarter=4
+title='Q4 Supplemental Financial Details' category='Financial Data (Excel)' url='https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Supplemental-Financial-Details.xlsx' year=2025 quarter=4
+title='Q4 Balance Sheet' category='Financial Data (Excel)' url='https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Balance-Sheet.xlsx' year=2025 quarter=4
+title='Q4FY25 Income Statements and GAAP Reconciliation' category='GAAP Reconciliation (Excel)' url='https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/Q4-25-Income-Statements-GAAP-Reconciliation.xlsx' year=2025 quarter=4
+title='Prepared Remarks' category='Prepared Remarks' url='https://s2.q4cdn.com/951347115/files/doc_earnings/2025/q4/transcript/Q4FY25-Prepared-Remarks.pdf' year=2025 quarter=4
+title='10-K' category='SEC Filing' url='https://s2.q4cdn.com/951347115/files/doc_financials/2025/q4/6c821d1a-cf4e-4310-9801-df9399aa701b.pdf' year=2025 quarter=4

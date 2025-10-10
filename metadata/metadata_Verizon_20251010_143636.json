@@ -1,0 +1,86 @@
+{
+  "company": "Verizon",
+  "ticker": "VZ",
+  "ir_url": "https://www.verizon.com/about/investors",
+  "pipeline_start_time": "2025-10-10T14:33:49.815372",
+  "pipeline_end_time": "2025-10-10T14:36:36.708880",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:33:49.815391",
+  "scraping_end_time": "2025-10-10T14:36:21.810161",
+  "urls_visited": 6,
+  "urls_found": 42,
+  "extraction_start_time": "2025-10-10T14:36:21.810399",
+  "extraction_end_time": "2025-10-10T14:36:29.904886",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:36:29.905244",
+  "download_end_time": "2025-10-10T14:36:36.708658",
+  "downloaded_files": [
+    {
+      "title": "vz2q25_foi_072125v2.pdf",
+      "size": 1126752,
+      "checksum": "b9f29b399275ca7601db567d1ed2131a",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.verizon.com/about/file/75849/download?token=IVkHtr6a",
+      "download_timestamp": "2025-10-10T14:36:30.917192",
+      "source_page": "https://www.verizon.com/about/investors/quarterly-reports/2q-2025-earnings-conference-call-webcast",
+      "file_type": "com/about/file/75849/download?token=ivkhtr6a"
+    },
+    {
+      "title": "vz2q25_infographic_072125v2.pdf",
+      "size": 8192,
+      "checksum": "ed0b241e603b13c6ca5d54e5e6f8507c",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.verizon.com/about/file/75847/download?token=uZs35jcy",
+      "download_timestamp": "2025-10-10T14:36:32.535068",
+      "source_page": "https://www.verizon.com/about/investors/quarterly-reports/2q-2025-earnings-conference-call-webcast",
+      "file_type": "com/about/file/75847/download?token=uzs35jcy"
+    },
+    {
+      "title": "vz2q25_earnings_presentation_072125.pdf",
+      "size": 8192,
+      "checksum": "2a9462b03372c321b5c44397a9990734",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.verizon.com/about/file/75785/download?token=kpMIKbqE",
+      "download_timestamp": "2025-10-10T14:36:33.813596",
+      "source_page": "https://www.verizon.com/about/investors/quarterly-reports/2q-2025-earnings-conference-call-webcast",
+      "file_type": "com/about/file/75785/download?token=kpmikbqe"
+    },
+    {
+      "title": "vz2q25_fs_072125.pdf",
+      "size": 618568,
+      "checksum": "2b2fe1c62ef63bf0a19901f9ee7ae3f6",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.verizon.com/about/file/75789/download?token=wNIH2JVz",
+      "download_timestamp": "2025-10-10T14:36:34.770430",
+      "source_page": "https://www.verizon.com/about/investors/quarterly-reports/2q-2025-earnings-conference-call-webcast",
+      "file_type": "com/about/file/75789/download?token=wnih2jvz"
+    },
+    {
+      "title": "vz2q25_earnings_transcript_072125.pdf",
+      "size": 208222,
+      "checksum": "e0b19585dae5f295d91a707010c30770",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.verizon.com/about/file/75853/download?token=I0qvRZQd",
+      "download_timestamp": "2025-10-10T14:36:35.740032",
+      "source_page": "https://www.verizon.com/about/investors/quarterly-reports/2q-2025-earnings-conference-call-webcast",
+      "file_type": "com/about/file/75853/download?token=i0qvrzqd"
+    },
+    {
+      "title": "vz2q25_nongaap_072125v2.pdf",
+      "size": 8192,
+      "checksum": "faece02fd1cc5c882248161b78f64d4e",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.verizon.com/about/file/75851/download?token=Jnh9vDNQ",
+      "download_timestamp": "2025-10-10T14:36:36.708551",
+      "source_page": "https://www.verizon.com/about/investors/quarterly-reports/2q-2025-earnings-conference-call-webcast",
+      "file_type": "com/about/file/75851/download?token=jnh9vdnq"
+    }
+  ]
+}

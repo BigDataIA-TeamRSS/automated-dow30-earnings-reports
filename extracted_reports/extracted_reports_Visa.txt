@@ -1,0 +1,4 @@
+title='Visa Inc. Fourth Quarter 2024 Financial Results Presentation' category='Presentation' url='https://s1.q4cdn.com/050606653/files/doc_financials/2024/q4/Visa-Inc-Fourth-Quarter-2024-Financial-Results-Presentation.pdf' year=2024 quarter=4
+title='Q4 2024 Earnings Release' category='Earnings Release' url='https://s1.q4cdn.com/050606653/files/doc_financials/2024/q4/Q4-2024-Earnings-Release_vF.pdf' year=2024 quarter=4
+title='Q4 FY2024 Visa Operational Performance Data' category='Operational Data' url='https://s1.q4cdn.com/050606653/files/doc_financials/2024/q4/Q4FY24-Visa-Operational-Performance-Data-FINAL.pdf' year=2024 quarter=4
+title='Corrected Transcript: Visa Inc. Q4 2024 Earnings Call' category='Transcript' url='https://s1.q4cdn.com/050606653/files/doc_financials/2024/q4/CORRECTED-TRANSCRIPT_-Visa-Inc-V-US-Q4-2024-Earnings-Call-29-October-2024-5_00-PM-ET.pdf' year=2024 quarter=4

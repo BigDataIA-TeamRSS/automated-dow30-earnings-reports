@@ -1,0 +1,64 @@
+{
+  "company": "Disney",
+  "ticker": "DIS",
+  "ir_url": "https://thewaltdisneycompany.com/investor-relations",
+  "pipeline_start_time": "2025-10-10T14:28:49.558068",
+  "pipeline_end_time": "2025-10-10T14:32:55.786952",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:28:49.558090",
+  "scraping_end_time": "2025-10-10T14:32:07.711996",
+  "urls_visited": 6,
+  "urls_found": 163,
+  "extraction_start_time": "2025-10-10T14:32:07.712228",
+  "extraction_end_time": "2025-10-10T14:32:50.814336",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:32:50.814485",
+  "download_end_time": "2025-10-10T14:32:55.786785",
+  "downloaded_files": [
+    {
+      "title": "reconciliation_q3_fy25.pdf",
+      "size": 1242344,
+      "checksum": "3ecf8907590bcb1f072edd03674efc4e",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://thewaltdisneycompany.com/app/uploads/2025/08/reconciliation_q3_fy25.pdf",
+      "download_timestamp": "2025-10-10T14:32:51.835704",
+      "source_page": "https://thewaltdisneycompany.com/investor-relations",
+      "file_type": "pdf"
+    },
+    {
+      "title": "q3-fy25-executive-commentary.pdf",
+      "size": 3562390,
+      "checksum": "e1efa521027334a43f928d4e206a99e9",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://thewaltdisneycompany.com/app/uploads/2025/08/q3-fy25-executive-commentary.pdf",
+      "download_timestamp": "2025-10-10T14:32:52.904627",
+      "source_page": "https://thewaltdisneycompany.com/investor-relations",
+      "file_type": "pdf"
+    },
+    {
+      "title": "q3-fy25-earnings-transcript.pdf",
+      "size": 717776,
+      "checksum": "643b5fdc5dfa5fc63d279d240e0bca19",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://thewaltdisneycompany.com/app/uploads/2025/08/q3-fy25-earnings-transcript.pdf",
+      "download_timestamp": "2025-10-10T14:32:54.163157",
+      "source_page": "https://thewaltdisneycompany.com/disneys-q3-fy25-earnings-results-webcast/",
+      "file_type": "pdf"
+    },
+    {
+      "title": "q3-fy25-earnings.pdf",
+      "size": 107902,
+      "checksum": "70686892dbcb4aa72c10005090ca99cf",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://thewaltdisneycompany.com/app/uploads/2025/08/q3-fy25-earnings.pdf",
+      "download_timestamp": "2025-10-10T14:32:55.786577",
+      "source_page": "https://thewaltdisneycompany.com/investor-relations",
+      "file_type": "pdf"
+    }
+  ]
+}

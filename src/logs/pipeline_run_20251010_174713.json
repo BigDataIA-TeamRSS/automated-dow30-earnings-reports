@@ -1,0 +1,12 @@
+{
+  "pipeline_run_date": "2025-10-10T17:47:13.029367",
+  "quarter": "2025_Q4",
+  "orchestrator_status": "unknown",
+  "docling_parser_status": "unknown",
+  "verify_status": "unknown",
+  "ir_links_files": 0,
+  "extracted_files": 0,
+  "downloaded_files": 0,
+  "docling_json_files": 0,
+  "docling_table_files": 0
+}

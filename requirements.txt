@@ -7,3 +7,10 @@ instructor[google-genai]
 pydantic
 python-dotenv
 google-genai
+docling
+apache-airflow
+PyPDF2
+beautifulsoup4
+pandas
+openpyxl
+google-genai

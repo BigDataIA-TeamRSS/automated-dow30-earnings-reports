@@ -1,0 +1,53 @@
+{
+  "company": "Apple",
+  "ticker": "AAPL",
+  "ir_url": "https://investor.apple.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.193611",
+  "pipeline_end_time": "2025-10-10T14:28:49.555973",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.197944",
+  "scraping_end_time": "2025-10-10T14:28:33.200552",
+  "urls_visited": 1,
+  "urls_found": 35,
+  "extraction_start_time": "2025-10-10T14:28:33.200713",
+  "extraction_end_time": "2025-10-10T14:28:46.022941",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:28:46.023102",
+  "download_end_time": "2025-10-10T14:28:49.555861",
+  "downloaded_files": [
+    {
+      "title": "10Q-Q3-2025-as-filed.pdf",
+      "size": 1016454,
+      "checksum": "70c9523df74d850ee3c1c842619258b0",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_earnings/2025/q3/filing/10Q-Q3-2025-as-filed.pdf",
+      "download_timestamp": "2025-10-10T14:28:47.415768",
+      "source_page": "https://investor.apple.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q3-25-Return-of-Capital-Timeline.pdf",
+      "size": 3553541,
+      "checksum": "3084b140038670fef4de3cb6fe493e69",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_earnings/2025/q3/generic/Q3-25-Return-of-Capital-Timeline.pdf",
+      "download_timestamp": "2025-10-10T14:28:48.506376",
+      "source_page": "https://investor.apple.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "FY25_Q3_Consolidated_Financial_Statements.pdf",
+      "size": 3148382,
+      "checksum": "0f9b688381884899e1481b97209bb960",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://www.apple.com/newsroom/pdfs/fy2025-q3/FY25_Q3_Consolidated_Financial_Statements.pdf",
+      "download_timestamp": "2025-10-10T14:28:49.551110",
+      "source_page": "https://investor.apple.com",
+      "file_type": "pdf"
+    }
+  ]
+}

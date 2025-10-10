@@ -1,0 +1,13 @@
+apache-airflow==2.8.1
+PyPDF2==3.0.1
+beautifulsoup4==4.12.3
+requests>=2.31.0,<3.0.0 
+pandas==2.2.0
+lxml==5.1.0
+openpyxl==3.1.2
+selenium==4.16.0
+instructor==1.11.3
+google-genai
+pydantic>=2.0.0,<3.0.0
+python-dotenv
+openai

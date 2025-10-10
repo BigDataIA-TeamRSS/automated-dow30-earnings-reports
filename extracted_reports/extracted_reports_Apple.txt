@@ -1,0 +1,3 @@
+title='10-Q' category='SEC Filing' url='https://s2.q4cdn.com/470004039/files/doc_earnings/2025/q3/filing/10Q-Q3-2025-as-filed.pdf' year=2025 quarter=3
+title='Financial Statements' category='Financial Statements' url='https://www.apple.com/newsroom/pdfs/fy2025-q3/FY25_Q3_Consolidated_Financial_Statements.pdf' year=2025 quarter=3
+title='Return of capital and net cash position' category='Other Financial Document' url='https://s2.q4cdn.com/470004039/files/doc_earnings/2025/q3/generic/Q3-25-Return-of-Capital-Timeline.pdf' year=2025 quarter=3

@@ -1,5 +1,5 @@
-title='Earnings Release' category='Earnings Release' url='https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/SHW-Earnings-Release-2Q2025_FINAL.pdf' year=2025 quarter=2
-title='Presentation' category='Presentation' url='https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/SHW-2Q-2025-Earnings-Slides-vFINAL.pdf' year=2025 quarter=2
-title='Transcript' category='Transcript' url='https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/CORRECTED-TRANSCRIPT-The-Sherwin-Williams-Co-SHW-US-Q2-2025-Earnings-Call-22-July-2025-10-00-AM-ET.pdf' year=2025 quarter=2
-title='Webcast' category='Webcast' url='https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/20252Q-Audio-File.mp3' year=2025 quarter=2
-title='10Q' category='10Q' url='https://s2.q4cdn.com/918177852/files/doc_financials/2025/q2/SHW-2025-6-30_10Q.pdf' year=2025 quarter=2
+title='Presentation' category='Earnings Presentation' url='https://s2.q4cdn.com/918177852/files/doc_financials/2024/q4/SHW-4Q-2024-Earnings-Slides-vFINAL.pdf' year=2024 quarter=4
+title='Transcript' category='Transcript' url='https://s2.q4cdn.com/918177852/files/doc_financials/2024/q4/CALLSTREET-REPORT-The-Sherwin-Williams-Co-SHW-US-Q4-2024-Earnings-Call-30-January-2025-10-00-AM-ET.pdf' year=2024 quarter=4
+title='Earnings Release' category='Earnings Release' url='https://s2.q4cdn.com/918177852/files/doc_financials/2024/q4/SHW-2024-YE-Earnings-Release_FINAL.pdf' year=2024 quarter=4
+title='10-K' category='10-K Filing' url='https://s2.q4cdn.com/918177852/files/doc_financials/2024/q4/2a86768d-ae2c-43fc-a5ba-ed94f7c59b69.pdf' year=2024 quarter=4
+title='Webcast' category='Webcast' url='https://s2.q4cdn.com/918177852/files/doc_financials/2024/q4/49511.mp3' year=2024 quarter=4
