@@ -20,16 +20,17 @@ from urllib.parse import urljoin, urlparse
 import re
 from datetime import datetime
 import random
+import sys
 
 # Project root (one level up from this `src` directory)
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-# Configure logging (log file at project root)
+# Configure logging (log file in logs directory)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(str(PROJECT_ROOT / 'enhanced_selenium_scraper.log')),
+        logging.FileHandler(str(PROJECT_ROOT / 'logs' / 'enhanced_selenium_scraper.log')),
         logging.StreamHandler()
     ]
 )
@@ -121,7 +122,7 @@ class DocumentLink:
 class EnhancedSeleniumScraper:
     """Enhanced Selenium-based scraper with intelligent navigation"""
     
-    def __init__(self, headless=True, max_promising_links=10):
+    def __init__(self, headless=True, max_promising_links=5):
         """Initialize Chrome WebDriver"""
         self.driver = None
         self.headless = headless
@@ -156,7 +157,7 @@ class EnhancedSeleniumScraper:
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        chrome_options.add_argument(f"--user-agent={self.user_agent}")
         chrome_options.add_argument("--lang=en-US,en;q=0.9")
         # Stealth: reduce obvious automation signals
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
@@ -193,14 +194,14 @@ class EnhancedSeleniumScraper:
                 self.driver.get(url)
                 
                 # Wait for page to be interactive
-                time.sleep(random.uniform(1.5, 3.5))
+                time.sleep(random.randint(1, 3))
                 WebDriverWait(self.driver, wait_time).until(
                     lambda driver: driver.execute_script("return document.readyState") in ("interactive", "complete")
                 )
                 # Give JS time, accept cookies, and perform a human-like scroll
                 self._try_accept_cookies()
                 self._human_like_scroll()
-                time.sleep(random.uniform(0.8, 2.0))
+                time.sleep(random.uniform(0.8, 1.5))
                 
                 # Final readyState check
                 WebDriverWait(self.driver, wait_time).until(
@@ -232,7 +233,7 @@ class EnhancedSeleniumScraper:
     def _human_like_scroll(self):
         """Perform a few incremental scrolls to trigger lazy loading and mimic humans."""
         try:
-            scroll_steps = random.randint(2, 4)
+            scroll_steps = random.uniform(.2, 1.5)
             total_height = self.driver.execute_script("return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);")
             viewport_height = self.driver.execute_script("return window.innerHeight || document.documentElement.clientHeight;")
             if not total_height or not viewport_height:
@@ -242,7 +243,7 @@ class EnhancedSeleniumScraper:
             for _ in range(scroll_steps):
                 current = min(current + step_size, total_height)
                 self.driver.execute_script("window.scrollTo(0, arguments[0]);", current)
-                time.sleep(random.uniform(0.6, 1.4))
+                time.sleep(random.uniform(1.0, 2.5))  # Increased delay for more human-like behavior
             # Scroll back a bit
             self.driver.execute_script("window.scrollTo(0, 0);")
         except Exception:
@@ -267,13 +268,189 @@ class EnhancedSeleniumScraper:
                         EC.element_to_be_clickable((By.XPATH, xp))
                     )
                     elem.click()
-                    time.sleep(random.uniform(0.2, 0.6))
+                    time.sleep(random.randint(1, 3))
                     break
                 except Exception:
                     continue
         except Exception:
             pass
     
+    def extract_year_quarter(self, text, url, title):
+        """Extract year and quarter information from document text/URL"""
+        import re
+        from datetime import datetime
+        
+        # Only match current year and next year
+        current_year = datetime.now().year
+        target_years = [current_year, current_year + 1]
+        
+        # Combine all text for analysis
+        combined_text = f"{text} {title} {url}".lower()
+        
+        years_found = []
+        quarters_found = []
+        
+        # Look for 4-digit years (only current year and next year)
+        year_patterns = [
+            r'\b(2025|2026)\b',           # Word boundaries
+            r'(2025|2026)[q\-]',          # Followed by Q or dash
+            r'[q\-](2025|2026)',          # Preceded by Q or dash
+            r'fy(2025|2026)',             # Fiscal year
+            r'(2025|2026)fy',             # Year followed by FY
+        ]
+        
+        for pattern in year_patterns:
+            matches = re.findall(pattern, combined_text)
+            years_found.extend(matches)
+        
+            # Look for 2-digit years (only 25, 26) - only match when completely sure
+            # Only match FY patterns and clear quarter patterns, avoid ambiguous cases
+            two_digit_patterns = [
+                r'fy(25|26)\b',                 # FY25, FY26
+                r'\b(25|26)fy\b',               # 25FY, 26FY
+                r'fy(25|26)[-\s]?q([1-4])\b',  # FY26 Q2, FY25-Q1, etc.
+                r'q([1-4])[-\s]?fy(25|26)\b',  # Q2 FY26, Q1-FY25, etc.
+            ]
+        
+        for pattern in two_digit_patterns:
+            matches = re.findall(pattern, combined_text)
+            if matches:
+                logger.info(f"2-digit pattern '{pattern}' matched: {matches} in text: '{combined_text[:100]}...'")
+            for match in matches:
+                if len(match) == 2:  # (quarter, year) or (year, quarter)
+                    if match[0] in ['1', '2', '3', '4']:  # First is quarter
+                        quarters_found.append(int(match[0]))
+                        years_found.append(f'20{match[1]}')
+                    elif match[1] in ['1', '2', '3', '4']:  # Second is quarter
+                        quarters_found.append(int(match[1]))
+                        years_found.append(f'20{match[0]}')
+                else:  # Just year
+                    years_found.append(f'20{match}')
+        
+        # Also look for quarter patterns in text
+        quarter_patterns = re.findall(r'\bq([1-4])\b', combined_text)
+        quarters_found.extend([int(q) for q in quarter_patterns])
+        
+        # Filter to only current year and below (2025 and below)
+        # But allow fiscal years to be one year ahead (e.g., FY26 = 2026)
+        current_year = datetime.now().year
+        valid_years = []
+        for year_str in years_found:
+            try:
+                year = int(year_str)
+                if year <= current_year + 1:  # Allow current year + 1 for fiscal years
+                    valid_years.append(year)
+            except ValueError:
+                continue
+        
+        # Return the most recent year and quarter found
+        latest_year = max(valid_years) if valid_years else None
+        latest_quarter = max(quarters_found) if quarters_found else None
+        
+        return latest_year, latest_quarter
+
+    def is_latest_quarter_document(self, text, url, title, latest_year, latest_quarter):
+        """Check if document is from the latest quarter"""
+        doc_year, doc_quarter = self.extract_year_quarter(text, url, title)
+        
+        if doc_year is None:
+            # If no year found, allow the document (as requested)
+            logger.info(f"✅ Document accepted: No year found in '{text[:50]}...'")
+            return True
+        
+        if doc_year < latest_year:
+            logger.info(f"❌ Document rejected: {doc_year} < {latest_year} in '{text[:50]}...'")
+            return False
+        elif doc_year > latest_year:
+            logger.info(f"✅ Document accepted: {doc_year} > {latest_year} in '{text[:50]}...'")
+            return True
+        else:  # doc_year == latest_year
+            if doc_quarter is None:
+                # If same year but no quarter, allow it
+                logger.info(f"✅ Document accepted: {doc_year} (no quarter) in '{text[:50]}...'")
+                return True
+            elif doc_quarter < latest_quarter:
+                logger.info(f"❌ Document rejected: {doc_year}Q{doc_quarter} < {latest_year}Q{latest_quarter} in '{text[:50]}...'")
+                return False
+            else:
+                logger.info(f"✅ Document accepted: {doc_year}Q{doc_quarter} >= {latest_year}Q{latest_quarter} in '{text[:50]}...'")
+                return True
+
+    def find_latest_quarter(self, document_links):
+        """Find the latest year and quarter across all document links"""
+        year_quarter_pairs = []
+        
+        for link in document_links:
+            year, quarter = self.extract_year_quarter(link.text, link.href, link.title)
+            if year:
+                logger.info(f"Found year {year} in: '{link.text[:50]}...' | '{link.title[:50]}...'")
+                # If no quarter found, default to Q4 for that year
+                if quarter is None:
+                    quarter = 4
+                year_quarter_pairs.append((year, quarter))
+        
+        if not year_quarter_pairs:
+            return datetime.now().year, 4
+        
+        # Find the latest year first
+        latest_year = max(year_quarter_pairs, key=lambda x: x[0])[0]
+        
+        # Then find the latest quarter within that year
+        latest_quarter = max([q for y, q in year_quarter_pairs if y == latest_year])
+        
+        logger.info(f"Year-quarter pairs found: {year_quarter_pairs}")
+        logger.info(f"Latest year: {latest_year}, Latest quarter: {latest_quarter}")
+        
+        return latest_year, latest_quarter
+
+    def get_pdf_title_from_url(self, url):
+        """Extract PDF title from URL using requests (faster and more reliable)"""
+        try:
+            import requests
+            
+            headers = {
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Python-Requests Downloader",
+                "Accept": "application/pdf,application/octet-stream;q=0.9,*/*;q=0.8",
+            }
+            
+            # Get the PDF headers
+            r = requests.get(url, headers=headers, stream=True, timeout=10)
+            r.raise_for_status()
+            
+            # Check if it's actually a PDF
+            ctype = r.headers.get("Content-Type", "").lower()
+            if "application/pdf" not in ctype and "octet-stream" not in ctype:
+                return None
+            
+            # Extract filename from Content-Disposition header
+            cd = r.headers.get("Content-Disposition", "")
+            if cd:
+                # Try filename* (UTF-8)
+                import re
+                m = re.search(r"filename\*\s*=\s*[^']+'[^']+'\s*([^;]+)", cd, flags=re.I)
+                if m:
+                    return m.group(1).strip().strip('"')
+                # Try plain filename=
+                m = re.search(r'filename\s*=\s*"?(?P<fn>[^";]+)"?', cd, flags=re.I)
+                if m:
+                    return m.group("fn").strip()
+            
+            return None
+            
+        except Exception as e:
+            logger.warning(f"Could not extract PDF title from {url}: {e}")
+        return None
+
+    def is_internal_link(self, url, base_url):
+        """Check if a URL is internal to the same domain"""
+        try:
+            from urllib.parse import urlparse
+            base_domain = urlparse(base_url).netloc
+            link_domain = urlparse(url).netloc
+            return base_domain == link_domain
+        except:
+            return False
+
     def classify_link(self, href, base_url):
         """Classify a link as document, navigational, internal, or external"""
         if not href:
@@ -350,8 +527,14 @@ class EnhancedSeleniumScraper:
         if not full_url:
             return None
         
-        # Classify the link
+        # Classify the link first
         link_type = self.classify_link(full_url, base_url)
+        
+        # For ALL document links, try to get better title from the PDF
+        if link_type == "document":
+            pdf_title = self.get_pdf_title_from_url(full_url)
+            if pdf_title:
+                title = pdf_title
         
         # Create DocumentLink object
         doc_link = DocumentLink(
@@ -399,10 +582,11 @@ class EnhancedSeleniumScraper:
             if self.is_url_excluded(full_url):
                 continue
             
-            score = sum(1 for keyword in quarterly_keywords if keyword in a)
-            score = sum(1 for keyword in quarterly_keywords if keyword in text.replace(' ', '-'))
-            score = sum(1 for keyword in quarterly_keywords if keyword in title.replace(' ', '-'))
-            score = sum(1 for keyword in quarterly_keywords if keyword in full_url.replace(' ', '-'))
+            score = 0
+            score += sum(1 for keyword in quarterly_keywords if keyword in a)
+            score += sum(1 for keyword in quarterly_keywords if keyword in text.replace(' ', '-'))
+            score += sum(1 for keyword in quarterly_keywords if keyword in title.replace(' ', '-'))
+            score += sum(1 for keyword in quarterly_keywords if keyword in full_url.replace(' ', '-'))
 
             # score += 1 if a in quarterly_keywords else 0
             # score += 1 if text.replace(' ', '-') in quarterly_keywords else 0
@@ -473,23 +657,38 @@ class EnhancedSeleniumScraper:
                 promising_links = self.find_quarterly_links(soup, current_url)
                 logger.info(f"Found {len(promising_links)} promising quarterly links")
                 
-                # Add promising links to visit queue
+                # Add promising links to visit queue (only internal links)
                 for link in promising_links:  # Limit to top 5 most promising
                     if link['url'] not in self.visited_urls:
-                        urls_to_visit.append((link['url'], depth + 1))
-                        logger.info(f"Added to queue: {link['text']} -> {link['url']}")
+                        # Only visit internal links, skip external sites like Google Calendar
+                        if self.is_internal_link(link['url'], base_url):
+                            urls_to_visit.append((link['url'], depth + 1))
+                            logger.info(f"Added to queue: {link['text']} -> {link['url']}")
+                        else:
+                            logger.info(f"Skipped external link: {link['text']} -> {link['url']}")
             
             # Human-like delay between requests
 
             time.sleep(random.randint(2, 4))
         
         # Filter to only document links
-        document_links = [link for link in self.document_links if link.is_document()]
+        all_document_links = [link for link in self.document_links if link.is_document()]
         navigational_links = [link for link in self.document_links if link.is_navigational()]
+        
+        # Find the latest quarter across all document links
+        latest_year, latest_quarter = self.find_latest_quarter(all_document_links)
+        logger.info(f"Latest quarter found: {latest_year}Q{latest_quarter}")
+        
+        # Filter document links to only the latest quarter
+        document_links = []
+        for link in all_document_links:
+            if self.is_latest_quarter_document(link.text, link.href, link.title, latest_year, latest_quarter):
+                document_links.append(link)
         
         logger.info(f"Completed crawl for {company_name}")
         logger.info(f"Total links found: {len(self.document_links)}")
-        logger.info(f"Document links: {len(document_links)}")
+        logger.info(f"All document links: {len(all_document_links)}")
+        logger.info(f"Latest quarter document links: {len(document_links)}")
         logger.info(f"Navigational links: {len(navigational_links)}")
         
         return document_links  # Return only document links
@@ -532,9 +731,18 @@ def get_investor_relation_urls(csv_path="dow30_companies.csv"):
 
 def main():
     """Main function to run enhanced scraper"""
-    ir_links_dir = Path(PROJECT_ROOT / "ir_links")
-    os.makedirs(ir_links_dir, exist_ok=True)
-    scraper = EnhancedSeleniumScraper(headless=False)  # Set to True for headless mode
+    # ir_links_dir = Path(PROJECT_ROOT / "ir_links")
+    # os.makedirs(ir_links_dir, exist_ok=True)
+    # scraper = EnhancedSeleniumScraper(headless=False)  # Set to True for headless mode
+    # Get company from command line argument
+    if len(sys.argv) > 1 and sys.argv[1] == "--companies" and len(sys.argv) > 2:
+        target_company = sys.argv[2]
+    else:
+        print("Usage: python enhanced_selenium_scraper.py --companies <company_name>")
+        return
+    
+    os.makedirs(PROJECT_ROOT / "ir_links", exist_ok=True)
+    scraper = EnhancedSeleniumScraper(headless=False)
     
     try:
         urls = get_investor_relation_urls(PATH_TO_CSV)
@@ -542,40 +750,70 @@ def main():
         # Test with a few companies first
         # test_companies = ["Apple", "Microsoft", "Amazon", "JPMorgan Chase", "Verizon", "IBM"]
         # test_companies = list(urls.keys())
-        # test_companies = ["Microsoft"]
+        # test_companies = ["Honeywell"]
+        if target_company not in urls:
+            print(f"Company '{target_company}' not found in CSV file")
+            return
         
-        for company, url in urls.items():
-            # if company in test_companies:
-            if True:
-                print(f"\n{'='*60}")
-                print(f"Processing {company}: {url}")
-                print(f"{'='*60}")
+        # for company, url in urls.items():
+        #     if company in test_companies:
+        #     # if True:
+        #         print(f"\n{'='*60}")
+        #         print(f"Processing {company}: {url}")
+        #         print(f"{'='*60}")
                 
-                # Crawl the IR site
-                document_links = scraper.crawl_company_ir_site(company, url)
+        #         # Crawl the IR site
+        #         document_links = scraper.crawl_company_ir_site(company, url)
                 
-                # Save document links to file with enhanced metadata
-                output_file = ir_links_dir / f"financial_links_{company}.txt"
-                with open(output_file, "w", encoding="utf-8") as f:
-                    for doc_link in document_links:
-                        # Write enhanced format with all metadata
-                        f.write(f"title='{doc_link.title}' text='{doc_link.text}' url='{doc_link.href}' type='{doc_link.link_type}' file_extension='{doc_link.file_extension}' document_type='{doc_link.document_type}' source_url='{doc_link.source_url}' full_html='{doc_link.full_html}'\n")
+        #         # Save document links to file with enhanced metadata
+        #         output_file = ir_links_dir / f"financial_links_{company}.txt"
+        #         with open(output_file, "w", encoding="utf-8") as f:
+        #             for doc_link in document_links:
+        #                 # Write enhanced format with all metadata
+        #                 f.write(f"title='{doc_link.title}' text='{doc_link.text}' url='{doc_link.href}' type='{doc_link.link_type}' file_extension='{doc_link.file_extension}' document_type='{doc_link.document_type}' source_url='{doc_link.source_url}' full_html='{doc_link.full_html}'\n")
                 
-                print(f"Saved {len(document_links)} document links to {output_file}")
+        #         print(f"Saved {len(document_links)} document links to {output_file}")
                 
-                # Show sample of document types found
-                doc_types = {}
-                for doc_link in document_links:
-                    doc_type = doc_link.document_type
-                    doc_types[doc_type] = doc_types.get(doc_type, 0) + 1
+        #         # Show sample of document types found
+        #         doc_types = {}
+        #         for doc_link in document_links:
+        #             doc_type = doc_link.document_type
+        #             doc_types[doc_type] = doc_types.get(doc_type, 0) + 1
                 
-                print(f"Document types found:")
-                for doc_type, count in sorted(doc_types.items()):
-                    print(f"  {doc_type}: {count}")
+        #         print(f"Document types found:")
+        #         for doc_type, count in sorted(doc_types.items()):
+        #             print(f"  {doc_type}: {count}")
                 
-                # Reset visited URLs for next company
-                scraper.visited_urls.clear()
+        #         # Reset visited URLs for next company
+        #         scraper.visited_urls.clear()
     
+        url = urls[target_company]
+        print(f"\n{'='*60}")
+        print(f"Processing {target_company}: {url}")
+        print(f"{'='*60}")
+        
+        # Crawl the IR site
+        document_links = scraper.crawl_company_ir_site(target_company, url)
+        
+        # Save document links to file with enhanced metadata
+        output_file = PROJECT_ROOT / "ir_links" / f"financial_links_{target_company}.txt"
+        with open(output_file, "w", encoding="utf-8") as f:
+            for doc_link in document_links:
+                # Write enhanced format with all metadata
+                f.write(f"title='{doc_link.title}' text='{doc_link.text}' url='{doc_link.href}' type='{doc_link.link_type}' file_extension='{doc_link.file_extension}' document_type='{doc_link.document_type}' source_url='{doc_link.source_url}' full_html='{doc_link.full_html}'\n")
+        
+        print(f"Saved {len(document_links)} document links to {output_file}")
+        
+        # Show sample of document types found
+        doc_types = {}
+        for doc_link in document_links:
+            doc_type = doc_link.document_type
+            doc_types[doc_type] = doc_types.get(doc_type, 0) + 1
+        
+        print(f"Document types found:")
+        for doc_type, count in sorted(doc_types.items()):
+            print(f"  {doc_type}: {count}")
+
     finally:
         scraper.close()
 

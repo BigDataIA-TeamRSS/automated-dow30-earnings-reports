@@ -234,47 +234,57 @@ def download_file(url_data, company_name, download_dir=None):
         return False
 
 def main():
-    """Main function to download all reports from QReports.txt"""
+    """Main function to download all reports from extracted reports files"""
+    import sys
+    
+    # Get company from command line argument
+    if len(sys.argv) > 1 and sys.argv[1] == "--companies" and len(sys.argv) > 2:
+        target_company = sys.argv[2]
+    else:
+        print("Usage: python download_reports.py --companies <company_name>")
+        return
+    
     project_root = Path(__file__).resolve().parents[1]
     extracted_dir = project_root / "extracted_reports"
     downloads_dir = project_root / "downloads"
-    for file in os.listdir(extracted_dir):
-        if file.endswith(".txt"):
-            # Extract company name from filename (remove "extracted_reports_" prefix and ".txt" suffix)
-            company_name = file.replace("extracted_reports_", "").replace(".txt", "")
-            print(f"Downloading reports from {file} (Company: {company_name})")
-            report_file = os.path.join(str(extracted_dir), file)
-            urls_data = parse_report_file(report_file)
-            # download_file(urls_data)
-    # qreports_file = "QReports.txt"
     
-            # print("🔍 Parsing QReports.txt...")
-            # urls_data = parse_qreports_file(qreports_file)
+    # Look for the specific company file
+    company_file = f"extracted_reports_{target_company}.txt"
+    if company_file not in os.listdir(extracted_dir):
+        print(f"⚠️  File not found for company {target_company}: {company_file}")
+        return
     
-            if not urls_data:
-                print("❌ No URLs found to download.")
-                continue
-            
-            print(f"📋 Found {len(urls_data)} URLs to download:")
-            for i, data in enumerate(urls_data, 1):
-                print(f"   {i}. {data['title']} ({data['category']}) - {data['year']}Q{data['quarter']}")
-            
-            print(f"\n🚀 Starting downloads...")
-            
-            successful_downloads = 0
-            failed_downloads = 0
+    print(f"\n{'='*60}")
+    print(f"Downloading reports from {company_file} (Company: {target_company})")
+    print(f"{'='*60}")
     
-            for i, url_data in enumerate(urls_data, 1):
-                print(f"\n--- Download {i}/{len(urls_data)} ---")
-                if download_file(url_data, company_name):
-                    successful_downloads += 1
-                else:
-                    failed_downloads += 1
-            
-            print(f"\n📊 Download Summary:")
-            print(f"   ✅ Successful: {successful_downloads}")
-            print(f"   ❌ Failed: {failed_downloads}")
-            print(f"   📁 Files saved in: {downloads_dir.resolve()}")
+    report_file = os.path.join(str(extracted_dir), company_file)
+    urls_data = parse_report_file(report_file)
+    
+    if not urls_data:
+        print("❌ No URLs found to download.")
+        return
+    
+    print(f"📋 Found {len(urls_data)} URLs to download:")
+    for i, data in enumerate(urls_data, 1):
+        print(f"   {i}. {data['title']} ({data['category']}) - {data['year']}Q{data['quarter']}")
+    
+    print(f"\n🚀 Starting downloads...")
+    
+    successful_downloads = 0
+    failed_downloads = 0
+
+    for i, url_data in enumerate(urls_data, 1):
+        print(f"\n--- Download {i}/{len(urls_data)} ---")
+        if download_file(url_data, target_company):
+            successful_downloads += 1
+        else:
+            failed_downloads += 1
+    
+    print(f"\n📊 Download Summary for {target_company}:")
+    print(f"   ✅ Successful: {successful_downloads}")
+    print(f"   ❌ Failed: {failed_downloads}")
+    print(f"   📁 Files saved in: {downloads_dir.resolve()}")
 
 if __name__ == "__main__":
     main()
