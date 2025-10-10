@@ -1,0 +1,97 @@
+{
+  "company": "Johnson & Johnson",
+  "ticker": "JNJ",
+  "ir_url": "https://investor.jnj.com",
+  "pipeline_start_time": "2025-10-10T14:30:44.262935",
+  "pipeline_end_time": "2025-10-10T14:32:49.865432",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:30:44.262952",
+  "scraping_end_time": "2025-10-10T14:32:23.097012",
+  "urls_visited": 2,
+  "urls_found": 400,
+  "extraction_start_time": "2025-10-10T14:32:23.097207",
+  "extraction_end_time": "2025-10-10T14:32:40.402574",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:32:40.403069",
+  "download_end_time": "2025-10-10T14:32:49.865021",
+  "downloaded_files": [
+    {
+      "title": "2Q25-Other-Financial-Disclosures.pdf",
+      "size": 582900,
+      "checksum": "721547c12d7853195a2ec09cbfda3823",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/2Q25-Other-Financial-Disclosures.pdf",
+      "download_timestamp": "2025-10-10T14:32:41.646153",
+      "source_page": "https://investor.jnj.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "JNJ-USQ_Transcript_2025-07-16.pdf",
+      "size": 197226,
+      "checksum": "37e413dd40c497fdcc9560747440090f",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/JNJ-USQ_Transcript_2025-07-16.pdf",
+      "download_timestamp": "2025-10-10T14:32:42.612060",
+      "source_page": "https://investor.jnj.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Final-Q2-2025-Infographic.pdf",
+      "size": 790150,
+      "checksum": "8cb61d138a24af8f5eb99a561a24483d",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/Final-Q2-2025-Infographic.pdf",
+      "download_timestamp": "2025-10-10T14:32:43.698564",
+      "source_page": "https://investor.jnj.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-Earnings-Press-Release-Final-7-15-with-Attachments.pdf",
+      "size": 1657251,
+      "checksum": "7890a4cc445f5c989633a736db13ca7e",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/2Q25-Earnings-Press-Release-Final-7-15-with-Attachments.pdf",
+      "download_timestamp": "2025-10-10T14:32:45.330354",
+      "source_page": "https://investor.jnj.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Final-JNJ-Earnings-Presentation-Q2-2025-Webcast.pdf",
+      "size": 3710973,
+      "checksum": "799c173fdbf3e06142864c8378f2fda3",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/Final-JNJ-Earnings-Presentation-Q2-2025-Webcast.pdf",
+      "download_timestamp": "2025-10-10T14:32:46.863115",
+      "source_page": "https://investor.jnj.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q-10Q-06-29-25-Final.pdf",
+      "size": 459731,
+      "checksum": "1357e79557358321a02dd04d8cc4b40d",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/2Q-10Q-06-29-25-Final.pdf",
+      "download_timestamp": "2025-10-10T14:32:48.193548",
+      "source_page": "https://investor.jnj.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "",
+      "size": 1149659,
+      "checksum": "2b3ac7d1c82642586ddd8d8375872754",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/file/PROTECTED-2Q25-Other-Financial-Disclosures.xlsx",
+      "download_timestamp": "2025-10-10T14:32:49.861392",
+      "source_page": "https://investor.jnj.com",
+      "file_type": "xlsx"
+    }
+  ]
+}

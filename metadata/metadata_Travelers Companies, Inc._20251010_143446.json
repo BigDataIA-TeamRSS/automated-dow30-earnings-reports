@@ -1,0 +1,75 @@
+{
+  "company": "Travelers Companies, Inc.",
+  "ticker": "TRV",
+  "ir_url": "https://investor.travelers.com",
+  "pipeline_start_time": "2025-10-10T14:33:15.531295",
+  "pipeline_end_time": "2025-10-10T14:34:46.263600",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:33:15.531329",
+  "scraping_end_time": "2025-10-10T14:34:25.331992",
+  "urls_visited": 3,
+  "urls_found": 18,
+  "extraction_start_time": "2025-10-10T14:34:25.332085",
+  "extraction_end_time": "2025-10-10T14:34:39.553857",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:34:39.554041",
+  "download_end_time": "2025-10-10T14:34:46.263392",
+  "downloaded_files": [
+    {
+      "title": "2Q25-Analyst-Supplement-FINAL.pdf",
+      "size": 780813,
+      "checksum": "dc2a06d0fc9109480498d36eec56f066",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2025/q2/2Q25-Analyst-Supplement-FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:34:41.305265",
+      "source_page": "https://investor.travelers.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-Webcast-FINAL.pdf",
+      "size": 163892,
+      "checksum": "eb723039fbc234620114472b4788c522",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2025/q2/2Q25-Webcast-FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:34:42.149932",
+      "source_page": "https://investor.travelers.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-10Q-FINAL.pdf",
+      "size": 478679,
+      "checksum": "3ca1adfe6c57adc20277c5bb899a9022",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2025/q2/2Q25-10Q-FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:34:43.860467",
+      "source_page": "https://investor.travelers.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-TRV-Transcript.pdf",
+      "size": 635187,
+      "checksum": "a286085e7596d0bdfe02e0d06115d6c1",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2025/q2/2Q25-TRV-Transcript.pdf",
+      "download_timestamp": "2025-10-10T14:34:44.837713",
+      "source_page": "https://investor.travelers.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-Press-Release-FINAL.pdf",
+      "size": 156182,
+      "checksum": "43fd600d14a8261dc600dbd2bb5be64c",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2025/q2/2Q25-Press-Release-FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:34:46.263028",
+      "source_page": "https://investor.travelers.com",
+      "file_type": "pdf"
+    }
+  ]
+}

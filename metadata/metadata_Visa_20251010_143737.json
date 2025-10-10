@@ -1,0 +1,75 @@
+{
+  "company": "Visa",
+  "ticker": "V",
+  "ir_url": "https://investor.visa.com",
+  "pipeline_start_time": "2025-10-10T14:33:54.613852",
+  "pipeline_end_time": "2025-10-10T14:37:37.536301",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:33:54.613923",
+  "scraping_end_time": "2025-10-10T14:36:42.197877",
+  "urls_visited": 4,
+  "urls_found": 338,
+  "extraction_start_time": "2025-10-10T14:36:42.198403",
+  "extraction_end_time": "2025-10-10T14:37:31.810368",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:37:31.810615",
+  "download_end_time": "2025-10-10T14:37:37.536043",
+  "downloaded_files": [
+    {
+      "title": "Q3-2025-Earnings-Release_vF.pdf",
+      "size": 276803,
+      "checksum": "be830ba261f0b7aa27f5641e83ac9283",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q3/Q3-2025-Earnings-Release_vF.pdf",
+      "download_timestamp": "2025-10-10T14:37:32.825565",
+      "source_page": "https://investor.visa.com/financial-information/quarterly-earnings/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "CORRECTED-TRANSCRIPT_-Visa-Inc-V-US-Q3-2025-Earnings-Call-29-July-2025-5_00-PM-ET.pdf",
+      "size": 315072,
+      "checksum": "35d5a26f74f66c8de479bd285c4ef426",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q3/CORRECTED-TRANSCRIPT_-Visa-Inc-V-US-Q3-2025-Earnings-Call-29-July-2025-5_00-PM-ET.pdf",
+      "download_timestamp": "2025-10-10T14:37:33.729204",
+      "source_page": "https://investor.visa.com/financial-information/quarterly-earnings/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "3640ffaa-7a4f-4d2c-9647-ec9105bc2857.pdf",
+      "size": 707759,
+      "checksum": "062903a271e0d7ab0fa318e62102d803",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q3/3640ffaa-7a4f-4d2c-9647-ec9105bc2857.pdf",
+      "download_timestamp": "2025-10-10T14:37:34.848966",
+      "source_page": "https://investor.visa.com/financial-information/quarterly-earnings/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Visa-Inc-Third-Quarter-2025-Financial-Results-Presentation.pdf",
+      "size": 202089,
+      "checksum": "c6bb40b1152087d22eb216273d44db86",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q3/Visa-Inc-Third-Quarter-2025-Financial-Results-Presentation.pdf",
+      "download_timestamp": "2025-10-10T14:37:36.457743",
+      "source_page": "https://investor.visa.com/financial-information/quarterly-earnings/default.aspx",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q3FY25-Visa-Operational-Performance-Data.pdf",
+      "size": 177695,
+      "checksum": "727ce97c667fcd94e814f2a9b2097103",
+      "quarter": "3",
+      "year": "2025",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q3/Q3FY25-Visa-Operational-Performance-Data.pdf",
+      "download_timestamp": "2025-10-10T14:37:37.535606",
+      "source_page": "https://investor.visa.com/financial-information/quarterly-earnings/default.aspx",
+      "file_type": "pdf"
+    }
+  ]
+}

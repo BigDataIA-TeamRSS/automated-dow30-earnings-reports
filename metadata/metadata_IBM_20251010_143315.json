@@ -1,0 +1,64 @@
+{
+  "company": "IBM",
+  "ticker": "IBM",
+  "ir_url": "https://www.ibm.com/investor",
+  "pipeline_start_time": "2025-10-10T14:30:35.925083",
+  "pipeline_end_time": "2025-10-10T14:33:15.530583",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:30:35.925116",
+  "scraping_end_time": "2025-10-10T14:32:47.400247",
+  "urls_visited": 6,
+  "urls_found": 13,
+  "extraction_start_time": "2025-10-10T14:32:47.400441",
+  "extraction_end_time": "2025-10-10T14:33:09.401680",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:33:09.401801",
+  "download_end_time": "2025-10-10T14:33:15.530338",
+  "downloaded_files": [
+    {
+      "title": "ibm-2q25-earnings-transcript.pdf",
+      "size": 128270,
+      "checksum": "b6ab705356c07a0623ca064c3dde474f",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.ibm.com/downloads/documents/us-en/137a1e23d85ba686",
+      "download_timestamp": "2025-10-10T14:33:11.016847",
+      "source_page": "https://www.ibm.com/investor/events/earnings-2q25",
+      "file_type": "com/downloads/documents/us-en/137a1e23d85ba686"
+    },
+    {
+      "title": "ibm-2q25-earnings-prepared-remarks.pdf",
+      "size": 111178,
+      "checksum": "552cf8ed8e61459c6650dff2d3a50079",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.ibm.com/downloads/documents/us-en/131cf87ac1331e91",
+      "download_timestamp": "2025-10-10T14:33:12.046522",
+      "source_page": "https://www.ibm.com/investor",
+      "file_type": "com/downloads/documents/us-en/131cf87ac1331e91"
+    },
+    {
+      "title": "ibm-2q25-earnings-press-release.pdf",
+      "size": 280313,
+      "checksum": "64c5beddfe7c50bb6b827d7f6d825118",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.ibm.com/downloads/documents/us-en/131cf8a39db327fd",
+      "download_timestamp": "2025-10-10T14:33:13.497326",
+      "source_page": "https://www.ibm.com/investor",
+      "file_type": "com/downloads/documents/us-en/131cf8a39db327fd"
+    },
+    {
+      "title": "ibm-2q25-earnings-charts.pdf",
+      "size": 357141,
+      "checksum": "667a288c87df13fcd100e73d4fa48b85",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.ibm.com/downloads/documents/us-en/131cf8a39db327ff",
+      "download_timestamp": "2025-10-10T14:33:15.529762",
+      "source_page": "https://www.ibm.com/investor",
+      "file_type": "com/downloads/documents/us-en/131cf8a39db327ff"
+    }
+  ]
+}

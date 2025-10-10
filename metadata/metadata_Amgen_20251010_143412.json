@@ -1,0 +1,19 @@
+{
+  "company": "Amgen",
+  "ticker": "AMGN",
+  "ir_url": "https://investors.amgen.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.193176",
+  "pipeline_end_time": "2025-10-10T14:34:12.984207",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.193522",
+  "scraping_end_time": "2025-10-10T14:30:23.546731",
+  "urls_visited": 5,
+  "urls_found": 65,
+  "extraction_start_time": "2025-10-10T14:30:23.547692",
+  "extraction_end_time": "2025-10-10T14:30:45.011593",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:30:45.012018",
+  "download_end_time": "2025-10-10T14:34:12.983990",
+  "downloaded_files": []
+}

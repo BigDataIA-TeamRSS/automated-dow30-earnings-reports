@@ -1,0 +1,42 @@
+{
+  "company": "Merck",
+  "ticker": "MRK",
+  "ir_url": "https://investors.merck.com",
+  "pipeline_start_time": "2025-10-10T14:31:44.883025",
+  "pipeline_end_time": "2025-10-10T14:32:09.786090",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:31:44.883043",
+  "scraping_end_time": "2025-10-10T14:31:57.179976",
+  "urls_visited": 1,
+  "urls_found": 5,
+  "extraction_start_time": "2025-10-10T14:31:57.180107",
+  "extraction_end_time": "2025-10-10T14:32:07.585785",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:32:07.585956",
+  "download_end_time": "2025-10-10T14:32:09.785982",
+  "downloaded_files": [
+    {
+      "title": "2Q25-Merck-Earnings-Announcement.pdf",
+      "size": 268484,
+      "checksum": "a38d95c031ae2169d255bf1c65d212df",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.merck.com/wp-content/uploads/sites/152/2025/07/2Q25-Merck-Earnings-Announcement.pdf",
+      "download_timestamp": "2025-10-10T14:32:08.916274",
+      "source_page": "https://investors.merck.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q25-Merck-Other-Financial-Disclosures.pdf",
+      "size": 540501,
+      "checksum": "45b26d14a7138193a5a95bd635115af5",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.merck.com/wp-content/uploads/sites/152/2025/07/2Q25-Merck-Other-Financial-Disclosures.pdf",
+      "download_timestamp": "2025-10-10T14:32:09.785061",
+      "source_page": "https://investors.merck.com",
+      "file_type": "pdf"
+    }
+  ]
+}

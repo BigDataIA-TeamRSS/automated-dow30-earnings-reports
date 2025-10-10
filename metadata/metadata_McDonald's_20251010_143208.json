@@ -1,0 +1,19 @@
+{
+  "company": "McDonald's",
+  "ticker": "MCD",
+  "ir_url": "https://investor.mcdonalds.com",
+  "pipeline_start_time": "2025-10-10T14:31:16.410004",
+  "pipeline_end_time": "2025-10-10T14:32:08.696539",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:31:16.410073",
+  "scraping_end_time": "2025-10-10T14:31:49.732904",
+  "urls_visited": 2,
+  "urls_found": 1,
+  "extraction_start_time": "2025-10-10T14:31:49.732991",
+  "extraction_end_time": "2025-10-10T14:32:08.696224",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:32:08.696445",
+  "download_end_time": "2025-10-10T14:32:08.696479",
+  "downloaded_files": []
+}

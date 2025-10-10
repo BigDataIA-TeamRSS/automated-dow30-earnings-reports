@@ -1,0 +1,75 @@
+{
+  "company": "Caterpillar",
+  "ticker": "CAT",
+  "ir_url": "https://investors.caterpillar.com",
+  "pipeline_start_time": "2025-10-10T14:27:54.193945",
+  "pipeline_end_time": "2025-10-10T14:29:31.879066",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:27:54.199058",
+  "scraping_end_time": "2025-10-10T14:28:49.842578",
+  "urls_visited": 2,
+  "urls_found": 136,
+  "extraction_start_time": "2025-10-10T14:28:49.842721",
+  "extraction_end_time": "2025-10-10T14:29:25.517193",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:29:25.517355",
+  "download_end_time": "2025-10-10T14:29:31.878932",
+  "downloaded_files": [
+    {
+      "title": "2Q-2025-Caterpillar-Retail-Statistics.pdf",
+      "size": 519821,
+      "checksum": "987cfd857770cc25a27d10406eeb9ada",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q2/2Q-2025-Caterpillar-Retail-Statistics.pdf",
+      "download_timestamp": "2025-10-10T14:29:26.530447",
+      "source_page": "https://investors.caterpillar.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q-2025-Analyst-Slide-Deck-Final.pdf",
+      "size": 2496908,
+      "checksum": "a53779939d004b0ca9b0560eb5a79194",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q2/2Q-2025-Analyst-Slide-Deck-Final.pdf",
+      "download_timestamp": "2025-10-10T14:29:27.623129",
+      "source_page": "https://investors.caterpillar.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q-2025-Caterpillar-Inc-Earnings-Call-Transcript_8-5-2025.pdf",
+      "size": 324125,
+      "checksum": "a27286debbb48debd2122910ac2c4dc9",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q2/2Q-2025-Caterpillar-Inc-Earnings-Call-Transcript_8-5-2025.pdf",
+      "download_timestamp": "2025-10-10T14:29:29.157966",
+      "source_page": "https://investors.caterpillar.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "057674ea-2260-4715-82e1-f028a55731bd.pdf",
+      "size": 3301116,
+      "checksum": "315c222ec461a12982eadf43f57a16ef",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q2/057674ea-2260-4715-82e1-f028a55731bd.pdf",
+      "download_timestamp": "2025-10-10T14:29:30.728258",
+      "source_page": "https://investors.caterpillar.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "2Q-2025-Glossary-of-Terms.pdf",
+      "size": 63629,
+      "checksum": "dd0e06be4e38fdaeea3c5ee0eb581051",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q2/2Q-2025-Glossary-of-Terms.pdf",
+      "download_timestamp": "2025-10-10T14:29:31.878731",
+      "source_page": "https://investors.caterpillar.com",
+      "file_type": "pdf"
+    }
+  ]
+}

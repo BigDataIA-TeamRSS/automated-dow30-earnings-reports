@@ -1,0 +1,53 @@
+{
+  "company": "Nike",
+  "ticker": "NKE",
+  "ir_url": "https://investors.nike.com",
+  "pipeline_start_time": "2025-10-10T14:32:08.698797",
+  "pipeline_end_time": "2025-10-10T14:33:49.275389",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:32:08.698822",
+  "scraping_end_time": "2025-10-10T14:33:29.250058",
+  "urls_visited": 3,
+  "urls_found": 165,
+  "extraction_start_time": "2025-10-10T14:33:29.250375",
+  "extraction_end_time": "2025-10-10T14:33:46.343055",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:33:46.343204",
+  "download_end_time": "2025-10-10T14:33:49.275271",
+  "downloaded_files": [
+    {
+      "title": "NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf",
+      "size": 206808,
+      "checksum": "f31d5a70b60244d0b8a3f2d82c2d77a4",
+      "quarter": "1",
+      "year": "2026",
+      "url": "https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:33:47.275571",
+      "source_page": "https://investors.nike.com/investors/news-events-and-reports/?toggle=earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q1-2026-Press-Release-9-30-25-Tables.pdf",
+      "size": 55375,
+      "checksum": "6d5eb8d260d1a5c32520e2b51363d72c",
+      "quarter": "1",
+      "year": "2026",
+      "url": "https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/Q1-2026-Press-Release-9-30-25-Tables.pdf",
+      "download_timestamp": "2025-10-10T14:33:48.076087",
+      "source_page": "https://investors.nike.com/investors/news-events-and-reports/?toggle=earnings",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Q1-2026-Press-Release-9-30-25-60.pdf",
+      "size": 84601,
+      "checksum": "09fd1d676d2994f7abb53c7b924ad48c",
+      "quarter": "1",
+      "year": "2026",
+      "url": "https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/Q1-2026-Press-Release-9-30-25-60.pdf",
+      "download_timestamp": "2025-10-10T14:33:49.275086",
+      "source_page": "https://investors.nike.com/investors/news-events-and-reports/?toggle=earnings",
+      "file_type": "pdf"
+    }
+  ]
+}

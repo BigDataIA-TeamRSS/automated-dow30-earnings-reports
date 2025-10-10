@@ -1,0 +1,64 @@
+{
+  "company": "Goldman Sachs",
+  "ticker": "GS",
+  "ir_url": "https://www.goldmansachs.com/investor-relations",
+  "pipeline_start_time": "2025-10-10T14:29:31.881006",
+  "pipeline_end_time": "2025-10-10T14:31:44.880698",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:29:31.881029",
+  "scraping_end_time": "2025-10-10T14:31:19.089056",
+  "urls_visited": 5,
+  "urls_found": 17,
+  "extraction_start_time": "2025-10-10T14:31:19.089247",
+  "extraction_end_time": "2025-10-10T14:31:40.464874",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:31:40.465203",
+  "download_end_time": "2025-10-10T14:31:44.880466",
+  "downloaded_files": [
+    {
+      "title": "Second Quarter 2025 Earnings Results",
+      "size": 236087,
+      "checksum": "1076de47b29748e56ecfd25d81c5263f",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/current/pdfs/2025-q2-results.pdf",
+      "download_timestamp": "2025-10-10T14:31:42.001868",
+      "source_page": "https://www.goldmansachs.com/pressroom/press-releases/2025/2025-07-16-q2-results",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Second Quarter 2025 Earnings Results Presentation",
+      "size": 370378,
+      "checksum": "212f2e0f5b9f38bf341a987ef1dffb04",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/current/pdfs/2025-q2-earnings-results-presentation.pdf",
+      "download_timestamp": "2025-10-10T14:31:43.013805",
+      "source_page": "https://www.goldmansachs.com/pressroom/press-releases/2025/2025-07-16-q2-results",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Second Quarter 2025 Form 10-Q",
+      "size": 1284864,
+      "checksum": "c1f4fd0b08f96121e77536a108addfa1",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.goldmansachs.com/investor-relations/financials/10q/2025/second-quarter-2025-10-q.pdf",
+      "download_timestamp": "2025-10-10T14:31:44.116437",
+      "source_page": "https://www.goldmansachs.com/investor-relations",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Second Quarter 2025 Pillar 3 Disclosures",
+      "size": 423213,
+      "checksum": "f4d13fcbc343dd0bf3f3437d8303ad27",
+      "quarter": "2",
+      "year": "2025",
+      "url": "https://www.goldmansachs.com/investor-relations/financials/other-information/2025/2q-pillar-3-2025.pdf",
+      "download_timestamp": "2025-10-10T14:31:44.879776",
+      "source_page": "https://www.goldmansachs.com/investor-relations",
+      "file_type": "pdf"
+    }
+  ]
+}

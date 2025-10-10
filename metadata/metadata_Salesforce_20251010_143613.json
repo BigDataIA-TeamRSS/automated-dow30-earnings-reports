@@ -1,0 +1,64 @@
+{
+  "company": "Salesforce",
+  "ticker": "CRM",
+  "ir_url": "https://investor.salesforce.com",
+  "pipeline_start_time": "2025-10-10T14:32:49.868936",
+  "pipeline_end_time": "2025-10-10T14:36:13.858967",
+  "status": "completed",
+  "error_message": null,
+  "scraping_start_time": "2025-10-10T14:32:49.869080",
+  "scraping_end_time": "2025-10-10T14:34:38.615512",
+  "urls_visited": 2,
+  "urls_found": 263,
+  "extraction_start_time": "2025-10-10T14:34:38.615973",
+  "extraction_end_time": "2025-10-10T14:36:08.912874",
+  "model_used": "google/gemini",
+  "download_start_time": "2025-10-10T14:36:08.913312",
+  "download_end_time": "2025-10-10T14:36:13.858718",
+  "downloaded_files": [
+    {
+      "title": "e0ddcab1-0019-4bae-b695-635df2e6ff0f.pdf",
+      "size": 791442,
+      "checksum": "edf8b370dc1880c5401583fa5e9b2655",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/e0ddcab1-0019-4bae-b695-635df2e6ff0f.pdf",
+      "download_timestamp": "2025-10-10T14:36:10.417296",
+      "source_page": "https://investor.salesforce.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "Salesforce-Inc-Q2-FY26-Earnings-Conference-Call-9-3-25.pdf",
+      "size": 179579,
+      "checksum": "033bd9a2f2b9471defd937a28eb85695",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/Salesforce-Inc-Q2-FY26-Earnings-Conference-Call-9-3-25.pdf",
+      "download_timestamp": "2025-10-10T14:36:11.282364",
+      "source_page": "https://investor.salesforce.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "CRM-Q2-FY26-Quarterly-Investor-Deck_FINAL.pdf",
+      "size": 19200878,
+      "checksum": "c813beb3b60fbae9816855a7621e16a3",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/CRM-Q2-FY26-Quarterly-Investor-Deck_FINAL.pdf",
+      "download_timestamp": "2025-10-10T14:36:12.400340",
+      "source_page": "https://investor.salesforce.com",
+      "file_type": "pdf"
+    },
+    {
+      "title": "CRM-Q2-FY26-Earnings-Press-Release-w-financials.pdf",
+      "size": 422806,
+      "checksum": "dca37651f18c273afb226265694ad38b",
+      "quarter": "2",
+      "year": "2026",
+      "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2026/q2/CRM-Q2-FY26-Earnings-Press-Release-w-financials.pdf",
+      "download_timestamp": "2025-10-10T14:36:13.857228",
+      "source_page": "https://investor.salesforce.com",
+      "file_type": "pdf"
+    }
+  ]
+}
